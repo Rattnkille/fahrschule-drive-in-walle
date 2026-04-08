@@ -10,10 +10,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Promo Banner -->
+    <div class="promo-banner" id="promoBanner">
+        <strong>Schüler &amp; Studenten:</strong> Jetzt <strong>20 % Rabatt</strong> sichern &mdash; einfach bei Anmeldung erwähnen!
+        <button type="button" class="banner-close" id="bannerClose" aria-label="Banner schließen">&times;</button>
+    </div>
+
     <div class="site-shell">
         <nav class="nav">
             <a class="brand" href="index.html">Drive In Walle</a>
-            <ul class="nav-list">
+            <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false" aria-label="Menü öffnen">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-list" id="navList">
                 <li><a class="active" href="index.html">Startseite</a></li>
                 <li><a href="kurse.html">Kurse</a></li>
                 <li><a href="team.html">Team</a></li>
@@ -38,7 +48,29 @@
                 </div>
             </section>
 
-            <section class="section feature-grid">
+            <!-- Stats / Zahlen -->
+            <section class="section reveal">
+                <div class="stats-row">
+                    <div class="stat" data-target="500">
+                        <div><span class="stat-num">0</span><span class="stat-suffix">+</span></div>
+                        <p>Erfolgreiche Schüler</p>
+                    </div>
+                    <div class="stat" data-target="98">
+                        <div><span class="stat-num">0</span><span class="stat-suffix">%</span></div>
+                        <p>Bestehensquote</p>
+                    </div>
+                    <div class="stat" data-target="10">
+                        <div><span class="stat-num">0</span><span class="stat-suffix">+</span></div>
+                        <p>Jahre Erfahrung</p>
+                    </div>
+                    <div class="stat" data-target="4.9">
+                        <div><span class="stat-num">0</span><span class="stat-suffix">★</span></div>
+                        <p>Google Bewertung</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section feature-grid reveal">
                 <article class="feature-card">
                     <h2>Flexibel lernen</h2>
                     <p>Theorie online oder vor Ort, Fahrstunden passend zu deinem Alltag und Planung, die sich an deiner Zeit orientiert.</p>
@@ -53,10 +85,10 @@
                 </article>
             </section>
 
-            <section class="section cards cards--home">
+            <section class="section cards cards--home reveal">
                 <article class="card card--accent">
                     <span class="card-label">Unsere Kurse</span>
-                    <h2>Intensivkurse & Aufbaupakete</h2>
+                    <h2>Intensivkurse &amp; Aufbaupakete</h2>
                     <p>Für Schüler, Berufstätige und alle, die einen schnellen Führerscheinplan brauchen.</p>
                     <a href="kurse.html" class="card-link">Mehr erfahren</a>
                 </article>
@@ -74,7 +106,61 @@
                 </article>
             </section>
 
-            <section class="section section--split">
+            <!-- Google Bewertungen -->
+            <section class="section reviews-section reveal">
+                <h2 class="section-title">Was unsere Schüler sagen</h2>
+                <p class="section-subtitle">Echte Erfahrungen, echte Erfolge</p>
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"Super Fahrschule! Die Lehrer sind geduldig und erklären alles verständlich. Habe beim ersten Versuch bestanden!"</p>
+                        <strong>— Lena K., Bremen</strong>
+                    </div>
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"Als Schüler hat mir der 20 % Rabatt sehr geholfen. Top Betreuung und flexible Termine. Kann ich nur empfehlen!"</p>
+                        <strong>— Jonas M., Bremen</strong>
+                    </div>
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"Ruhige und professionelle Atmosphäre. Mein Fahrlehrer hat mir das nötige Vertrauen gegeben. Danke Drive In Walle!"</p>
+                        <strong>— Fatima S., Bremen</strong>
+                    </div>
+                </div>
+                <a class="google-badge" href="https://maps.app.goo.gl/22WR557CoSiLuuKV7" target="_blank" rel="noopener noreferrer">
+                    <svg width="18" height="18" viewBox="0 0 48 48"><path fill="#4285F4" d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z"/><path fill="#34A853" d="M6.3 14.7l7 5.1C15.2 16.5 19.3 14 24 14c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 16.3 2 9.6 7.4 6.3 14.7z"/><path fill="#FBBC05" d="M24 46c5.9 0 10.9-2 14.6-5.3l-6.8-5.6C29.8 36.6 27 37.5 24 37.5c-6.1 0-11.2-4-13-9.5l-7 5.4C7.5 41 15.1 46 24 46z"/><path fill="#EA4335" d="M44.5 20H24v8.5h11.8c-.9 2.8-2.8 5.1-5.2 6.6l6.8 5.6C41.7 37.7 45 31.5 45 24c0-1.3-.2-2.7-.5-4z"/></svg>
+                    Alle Bewertungen auf Google ansehen
+                </a>
+            </section>
+
+            <!-- FAQ -->
+            <section class="section faq-section reveal">
+                <h2>Häufig gestellte Fragen</h2>
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>Wie lange dauert es bis zum Führerschein?</summary>
+                        <p>Im Durchschnitt 3–6 Monate im Normaltempo. Mit unserem Intensivkurs ist es auch in 4–6 Wochen möglich – je nach Verfügbarkeit beim TÜV/DEKRA.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Was kostet eine Fahrstunde?</summary>
+                        <p>Eine Einzelstunde kostet 75 €. Wir bieten auch günstigere Pakete an – schau dir unsere <a href="preise.html" class="faq-link">Preisübersicht</a> an.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Bekomme ich wirklich 20 % Rabatt als Schüler oder Student?</summary>
+                        <p>Ja! Einfach bei der Anmeldung einen gültigen Schülerausweis oder Studentenausweis vorzeigen. Der Rabatt gilt auf das gewählte Ausbildungspaket.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Kann ich die Theorie online lernen?</summary>
+                        <p>Ja, wir bieten digitale Theoriemodule an, die du flexibel von zu Hause aus nutzen kannst. Auf Wunsch auch Präsenzunterricht in Walle.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Wie melde ich mich an?</summary>
+                        <p>Ruf uns an unter <a href="tel:+4917436361500" class="faq-link">0174 / 36 36 150</a>, schreib eine E-Mail oder komm einfach direkt bei uns in Walle vorbei.</p>
+                    </details>
+                </div>
+            </section>
+
+            <section class="section section--split reveal">
                 <div>
                     <h2>Warum Drive In Walle?</h2>
                     <p>Weil wir Fahrschüler ernst nehmen. Du bekommst eine Ausbildung, die sowohl anfängerfreundlich als auch effizient ist. Unser Fokus liegt auf Sicherheit, Verständnis und einer positiven Prüfungsleistung.</p>
@@ -91,15 +177,22 @@
                 </div>
             </section>
 
-            <section class="section contact-panel">
+            <section class="section contact-panel reveal">
                 <h2>Bereit für den ersten Schritt?</h2>
                 <p>Buche dein erstes Gespräch oder schreibe direkt eine Nachricht. Wir antworten schnell und planen gemeinsam deinen Fahrschulstart.</p>
-                <div class="hero-actions">
+                <div class="hero-actions hero-actions--center">
                     <a href="kontakt.html" class="btn btn-primary">Kontakt</a>
                     <a href="mailto:info@driveinwalle.de" class="btn btn-secondary">E-Mail senden</a>
                 </div>
             </section>
         </main>
     </div>
+
+    <!-- WhatsApp Button -->
+    <a class="whatsapp-btn" href="https://wa.me/4917436361500" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Chat öffnen">
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.3.6 4.5 1.8 6.4L4 29l7.8-1.8C13.5 28.4 14.7 28.7 16 28.7c6.6 0 12-5.4 12-12S22.6 3 16 3zm0 22c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-4.6 1.1 1.1-4.5-.3-.4C5.5 18.3 5 17.2 5 16c0-6.1 4.9-11 11-11s11 4.9 11 11-4.9 11-11 11zm6-8.2c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1s-1.2-.4-2.3-1.3c-.9-.7-1.4-1.6-1.6-1.9-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.2-.5 0-.2-.7-1.8-.9-2.4-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.3.2-1.5-.1-.2-.3-.2-.6-.4z"/></svg>
+    </a>
+
+    <script src="main.js"></script>
 </body>
 </html>
