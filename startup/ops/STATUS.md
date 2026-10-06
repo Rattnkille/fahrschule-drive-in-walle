@@ -9,6 +9,9 @@
 
 Details: `gruender-todos.md`
 
+## ❓ Offene Entscheidung
+- Stufenweise Leiter (zuerst Digital-Check als Dienstleistung, dann Lückenfüller-Tool, dann volle Plattform)? Siehe `strategie/swot-machbarkeit.md`. Bis zur Antwort: Vertrieb vorbereiten, keine Produktentwicklung über die Klick-Demo hinaus.
+
 ## 📊 Kennzahlen
 
 | Kennzahl | Ist | Ziel bis M5 |
