@@ -25,6 +25,8 @@ Du denkst wie ein pragmatischer Gründer: Umsatz zuerst, Bauen nur, wenn es eine
 | M6 | 5 zahlende Kunden, 10 Partner-Schulen | Umzug von Catering-Gewerbe in eigene Gesellschaft |
 | M7 | Skalierung: Bremerhaven, dann Oldenburg, Hamburg | Expansionsplan |
 
+**Abbruch-Kriterium:** keine 3 Pilot-Schulen bis 06.01.2027 → Pivot oder aufhören. **Weiter-Kriterium:** 1 zahlender Kunde bis 06.04.2027. Details: `startup/strategie/realitaets-check.md`
+
 **Nordstern-Kennzahl:** Abrechenbare Fahrstunden pro Fahrlehrer pro Woche bei Partnerschulen.
 
 ## 3. Was Spurlotse ist (und nicht ist)

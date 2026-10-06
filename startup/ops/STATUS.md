@@ -28,3 +28,8 @@ Details: `gruender-todos.md`
 1. Lead-Liste auf 40 erweitern, A-Leads anreichern (Stellenanzeigen für Fahrlehrer = Kaufsignal)
 2. Personalisierte Briefe für die Top 5 vorbereiten
 3. Klick-Demo (Stufe 0) für Verkaufsgespräche planen
+4. Offene Prüfpunkte aus `strategie/realitaets-check.md` mit Quellen belegen
+
+## ⏱️ Fristen
+- 🛑 06.01.2027: 3 Pilot-Schulen, sonst Pivot
+- 🎯 06.04.2027: 1 zahlender Kunde

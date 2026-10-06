@@ -10,7 +10,7 @@ Software für Fahrschulen in Bremen: **mehr Fahrstunden pro Fahrlehrer, weniger 
 ## Ordner
 | Ordner | Inhalt |
 |---|---|
-| `strategie/` | Geschäftsmodell, Preise, Gesprächsleitfaden, Wettbewerb |
+| `strategie/` | Geschäftsmodell, Preise, Gesprächsleitfaden, Wettbewerb, Realitäts-Check |
 | `vertrieb/` | Lead-Liste Bremen, CRM, Brief-Vorlage, Pilot-Vereinbarung |
 | `marketing/` | Social-Media-Plan, Flyer, Kanäle, SEO, Pressemitteilung |
 | `recht/` | Checkliste Recht und Gründung |
