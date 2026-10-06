@@ -23,7 +23,7 @@
 - **Sehr geringes Kapitalrisiko** (ca. 1.000 bis 2.500 € für 6 Monate)
 - **Bestehendes Gewerbe**: Start ohne Gründungskosten
 - **Lokal und persönlich**: Gründer aus Bremen, kann vorbeikommen
-- **Schon Fahrschul-Erfahrung**: Website für Drive In Walle gebaut (möglicher erster Kontakt)
+- **Muster-Website vorhanden**: Die Fahrschul-Website im Repo (Drive In Walle) kann als Vorlage für Digital-Start dienen. Kein Kontakt zu dieser Schule (geklärt 06.10.2026)
 - **KI als Hebel**: Texte, Recherche, Code und Planung sind kein Engpass
 - Komplettes Startpaket liegt schon bereit (Website, Leitfaden, Verträge, Marketing)
 
@@ -71,7 +71,7 @@
 
 | Stufe | Angebot | Komplexität | Geld |
 |---|---|---|---|
-| **1. Türöffner** | „Digital-Check“: Website, Google-Profil, Online-Anfrageformular, WhatsApp-Vorlagen für Fahrschulen (wie bei Drive In Walle) | 🟢 | Einmalig ca. 300 bis 900 € (Preis im Gespräch testen) |
+| **1. Türöffner** | „Digital-Check“: Website, Google-Profil, Online-Anfrageformular, WhatsApp-Vorlagen für Fahrschulen (Muster-Website im Repo als Vorlage) | 🟢 | Einmalig ca. 300 bis 900 € (Preis im Gespräch testen) |
 | **2. Leichte Software** | Nur **Wartelisten- und Lückenfüller-Tool**: Absage → freie Stunde automatisch an wartende Schüler. Kein Kalender-Ersatz, läuft neben bestehender Software | 🟡 | 39 bis 69 € pro Monat |
 | **3. Volle Plattform** | Kalender, Schülerakte, Abrechnung, Prüfungsreife | 🔴 | 99 € + 19 € je Fahrlehrer |
 
@@ -89,4 +89,4 @@
 - Stunden pro Woche für FahrLotti (angenommen: 5 bis 10)
 - Budget (angenommen: bis 2.500 €)
 - Tech-Skills (angenommen: Grundlagen, keine Programmiererfahrung)
-- Gibt es einen echten Kontakt zu Drive In Walle?
+- ~~Kontakt zu Drive In Walle?~~ Nein, nur eine von vielen Bremer Fahrschulen. Kein bevorzugter Erstkontakt.
