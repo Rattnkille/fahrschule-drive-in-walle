@@ -5,7 +5,22 @@
 - **Bauen nur nach Bedarf:** Ein Feature wird gebaut, wenn ein Pilot-Partner es braucht.
 - **Stack:** Klick-Demo mit Beispieldaten in Softr + Airtable (schnell, kostenlos). **Ab echten Schülerdaten (Pilot): Supabase in der EU-Region als Datenbank**, Softr als Oberfläche (Softr kann Supabase anbinden), Make.com (Sitz Prag) für Automatisierungen. Grund: Airtable speichert standardmäßig in den USA.
 
-## Ausbaustufen
+## Zuerst: Lotti Lückenfüller (Stufe 2 der Leiter)
+
+**Ziel:** Absagen werden zu gefahrenen Stunden. Keine Umstellung für die Schule.
+
+**Ablauf:**
+1. Schüler melden sich bei der Schule auf die **Warteliste** (Formular-Link, den die Schule per WhatsApp verschickt): Name, Handy, Stadtteil, Ausbildungsstand, Zeiten, Einwilligung (bei unter 16 mit Eltern).
+2. Absage passiert → Fahrlehrer füllt in 20 Sekunden das **„Freie Stunde“-Formular** aus (Datum, Uhrzeit, Abholort-Stadtteil, Klasse).
+3. Lotti schickt die freie Stunde an die **3 bis 5 passendsten Schüler** (gleicher Stadtteil, passende Zeit) per SMS oder E-Mail mit Link „Ich nehme sie“.
+4. **Wer zuerst klickt, bekommt die Stunde.** Die anderen sehen „schon vergeben“. Der Fahrlehrer bekommt sofort Name und Handynummer.
+5. Wochenbericht an den Inhaber: Wie viele Lücken gemeldet, wie viele gefüllt, wie viel Umsatz gerettet.
+
+**Technik (niedrigschwellig):** Tally oder Softr-Formulare → Supabase (EU) → Make.com → SMS über einen EU-Anbieter (z. B. seven.io oder Brevo) → einfache Bestätigungsseite.
+**Wizard of Oz am Anfang:** In den ersten 2 Wochen darf der Gründer die Nachrichten auch von Hand verschicken, um den Ablauf zu testen.
+**Aufwand:** ca. 3 bis 5 Arbeitstage. **Kosten:** ca. 20 bis 50 € pro Monat plus SMS-Gebühren.
+
+## Ausbaustufen der vollen Plattform (Stufe 3, erst nach 3 zahlenden Lückenfüller-Kunden)
 
 | Stufe | Inhalt | Wann | Kosten/Monat |
 |---|---|---|---|

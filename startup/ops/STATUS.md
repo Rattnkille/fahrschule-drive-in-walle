@@ -1,6 +1,6 @@
 # STATUS: FahrLotti
 
-**Stand:** 06.10.2026 · **Aktueller Meilenstein:** M1 (Website live, Formulare funktionieren)
+**Stand:** 06.10.2026 · **Aktueller Meilenstein:** M1 (Website live, Formulare funktionieren) · **Strategie:** stufenweise Leiter
 
 ## 🚧 Blocker (wartet auf Gründer)
 1. Projekt-E-Mail fehlt → Formulare können noch nicht zustellen
@@ -9,8 +9,8 @@
 
 Details: `gruender-todos.md`
 
-## ❓ Offene Entscheidung
-- Stufenweise Leiter (zuerst Digital-Check als Dienstleistung, dann Lückenfüller-Tool, dann volle Plattform)? Siehe `strategie/swot-machbarkeit.md`. Bis zur Antwort: Vertrieb vorbereiten, keine Produktentwicklung über die Klick-Demo hinaus.
+## ✔️ Entscheidung 06.10.2026
+- Stufenweise Leiter: Digital-Start (ab 490 €) → Lotti Lückenfüller (49 €/Monat) → FahrLotti komplett. Website, Masterprompt, Brief und Bauplan angepasst.
 
 ## 📊 Kennzahlen
 
@@ -30,7 +30,7 @@ Details: `gruender-todos.md`
 ## ⏭️ Nächste Schritte (Agent)
 1. Lead-Liste auf 40 erweitern, A-Leads anreichern (Stellenanzeigen für Fahrlehrer = Kaufsignal)
 2. Personalisierte Briefe für die Top 5 vorbereiten
-3. Klick-Demo (Stufe 0) für Verkaufsgespräche planen
+3. Lotti Lückenfüller als Klick-Demo bauen (Formulare + Beispielablauf)
 4. Offene Prüfpunkte aus `strategie/realitaets-check.md` mit Quellen belegen
 
 ## ⏱️ Fristen

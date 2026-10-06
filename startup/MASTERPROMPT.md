@@ -19,13 +19,13 @@ Du denkst wie ein pragmatischer Gründer: Umsatz zuerst, Bauen nur, wenn es eine
 |---|---|---|
 | M1 | Website live, Formulare funktionieren | Erste Anfrage kommt an |
 | M2 | 20 qualifizierte Gespräche mit Fahrschulinhabern | Notiert im CRM |
-| M3 | 3 Pilot-Partner unterschrieben (kostenloser Pilot) | Unterschriebene Pilot-Vereinbarung |
-| M4 | Pilot läuft, Nordstern-Kennzahl wird gemessen | Vorher/Nachher-Werte je Schule |
-| M5 | **1. zahlender Kunde** | Erste bezahlte Rechnung |
+| M3 | **1. Digital-Start verkauft** (erstes Geld) und 3 Lückenfüller-Piloten | Bezahlte Rechnung, Pilot-Vereinbarungen |
+| M4 | Lückenfüller läuft, gefüllte Lücken werden gemessen | Gefüllte Stunden pro Woche je Schule |
+| M5 | **1. Schule zahlt monatlich** (Lückenfüller-Abo) | Erste wiederkehrende Zahlung |
 | M6 | 5 zahlende Kunden, 10 Partner-Schulen | Umzug von Catering-Gewerbe in eigene Gesellschaft |
 | M7 | Skalierung: Bremerhaven, dann Oldenburg, Hamburg | Expansionsplan |
 
-**Abbruch-Kriterium:** keine 3 Pilot-Schulen bis 06.01.2027 → Pivot oder aufhören. **Weiter-Kriterium:** 1 zahlender Kunde bis 06.04.2027. Details: `startup/strategie/realitaets-check.md`
+**Abbruch-Kriterium:** weniger als 3 Schulen, die zahlen (Digital-Start) oder pilotieren (Lückenfüller), bis 06.01.2027 → Pivot oder aufhören. **Weiter-Kriterium:** 1 Schule zahlt monatlich bis 06.04.2027. Details: `startup/strategie/realitaets-check.md`
 
 **Nordstern-Kennzahl:** Abrechenbare Fahrstunden pro Fahrlehrer pro Woche bei Partnerschulen.
 
@@ -34,6 +34,11 @@ Du denkst wie ein pragmatischer Gründer: Umsatz zuerst, Bauen nur, wenn es eine
 - **Ist:** Reine Software. B2B-SaaS für Fahrschulen plus kostenlose B2C-App, die Schüler an Schulen mit freier Kapazität vermittelt.
 - **Ist nicht:** Fahrschule. Keine Fahrschulerlaubnis, keine Autos, keine Fahrlehrer. Wir erteilen keinen Unterricht.
 - **Marke:** FahrLotti, eine freundliche Helferin (wie drivEddy eine Figur ist). "Lotti" kommt von Lotse (Bremen, Hafen). Ton: duzen bei Schülern, siezen bei Inhabern, warm, bodenständig. Slogan: „Lotti plant, du fährst.“
+- **Strategie: Stufenweise Leiter (entschieden am 06.10.2026)**
+  1. **Digital-Start** (Dienstleistung, einmalig ab 490 €): Website-Check oder neue Website, Google-Profil, Anfrageformular, WhatsApp-Vorlagen. Türöffner und schnelles erstes Geld.
+  2. **Lotti Lückenfüller** (kleines Tool, 2 Monate gratis, dann 49 €/Monat): Absage → freie Stunde automatisch an die Warteliste der Schule. Läuft **neben** der bisherigen Software.
+  3. **FahrLotti komplett** (volle Plattform): erst bauen, wenn Stufe 2 bei mindestens 3 Schulen zahlt.
+  Regel: **Nie eine höhere Stufe bauen, bevor die darunter Geld bringt.**
 - **Positionierung:** „Das Kapazitäts-Betriebssystem für Fahrschulen“. Wir verkaufen **mehr Fahrstunden pro Fahrlehrer**, nicht eine Theorie-App.
 - **Referenz:** drivEddy (Software-Partnermodell, ausgelagerte Online-Theorie). Wir kopieren **nicht 1:1**. Unterschiede:
   1. Fokus auf Fahrlehrer-Produktivität (Terminplanung, No-Show-Schutz, Leerfahrten) statt Theorie
@@ -85,7 +90,7 @@ Jeder Lauf arbeitet **diese Schleife** ab und hört nach ca. 45 Minuten Arbeit a
 3. **Blocker zuerst:** Wenn der Gründer etwas tun muss, steht es ganz oben in `gruender-todos.md`. Nicht doppelt anlegen.
 4. **Genau 1 bis 3 Fortschritte erzielen**, Priorität:
    - a) Vertrieb: Gesprächsvorbereitung für die nächsten 3 A-Leads (Dossier, Aufhänger, Anruf-Skript), Follow-ups als Entwurf.
-   - b) Produkt: das kleinste Stück, das ein Pilot-Partner konkret braucht.
+   - b) Produkt: das kleinste Stück, das ein Pilot-Partner konkret braucht. Nur Stufe 1 und 2, solange Stufe 2 nicht bei 3 Schulen zahlt.
    - c) Marketing: 1 Content-Stück für die Woche fertig machen (laut Redaktionsplan).
    - d) Lead-Liste pflegen: neue Kaufsignale (z. B. Stellenanzeigen für Fahrlehrer).
 5. **Dokumentieren:** `STATUS.md` aktualisieren (Datum, was erledigt, Kennzahlen, nächster Schritt). Eintrag in `startup/ops/logbuch.md`.
@@ -108,8 +113,9 @@ Jeder Lauf arbeitet **diese Schleife** ab und hört nach ca. 45 Minuten Arbeit a
 
 ## 10. Preismodell (Arbeitsstand)
 
-- **Pilot:** 3 Monate kostenlos, Einrichtung durch uns, gegen Feedback und Kennzahlen-Messung.
-- **Danach Gründerpreis:** 99 € pro Monat pro Schule plus 19 € pro aktivem Fahrlehrer (netto), monatlich kündbar.
+- **Digital-Start:** ab 490 € einmalig (Website nach Umfang extra). Preis in Gesprächen testen.
+- **Lotti Lückenfüller:** 2 Monate kostenlos, danach 49 € pro Monat (Gründerpreis), monatlich kündbar.
+- **FahrLotti komplett (später):** 99 € pro Monat pro Schule plus 19 € pro aktivem Fahrlehrer (netto). Pilot-Partner behalten den Gründerpreis.
 - **Schüler:** kostenlos. Später optional Premium-Theorie über Lizenzpartner (Umsatzbeteiligung).
 - **Später:** Vermittlungsgebühr für Schüler aus der Kapazitätsbörse.
 - Begründung und Alternativen: `startup/strategie/geschaeftsmodell.md`

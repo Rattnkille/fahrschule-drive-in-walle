@@ -14,22 +14,20 @@ z. Hd. [INHABER]
 
 Bremen, [DATUM]
 
-**Mehr Fahrstunden mit Ihren vorhandenen Fahrlehrern: Pilot für 3 Bremer Fahrschulen**
+**Abgesagte Fahrstunden automatisch nachbesetzen: kostenloser Test für 3 Bremer Fahrschulen**
 
 Moin [ANREDE],
 
 [PERSÖNLICHER AUFHÄNGER, z. B. „ich habe gesehen, dass Sie gerade einen Fahrlehrer suchen.“ oder „Ihre Fahrschule in der Neustadt kenne ich seit Jahren vom Vorbeifahren.“]
 
-Ich bin Gründer aus Bremen und baue **FahrLotti**, eine Software für Fahrschulen. Das Ziel ist einfach: **Ihre Fahrlehrer fahren mehr und planen weniger.**
+Ich bin Gründer aus Bremen und baue **FahrLotti**, kleine digitale Helfer für Fahrschulen. Mein Ziel ist einfach: **Ihre Fahrlehrer fahren mehr und telefonieren weniger.**
 
-Konkret heißt das:
-- **Weniger Ausfälle:** Vorkasse und klare Stornoregel, freie Slots werden automatisch nachbesetzt.
-- **Weniger Leerfahrten:** Termine werden nach Stadtteil gebündelt.
-- **Weniger Büro:** Schülerakte, Ausbildungskarte und Rechnungen digital an einem Ort.
+Ich fange bewusst klein an, ohne dass Sie etwas umstellen müssen:
 
-Wenn ein Fahrlehrer dadurch nur 2 Fahrstunden pro Woche mehr fährt, sind das bei 60 € pro Stunde gut 500 € Umsatz im Monat, pro Fahrlehrer.
+- **Lotti Lückenfüller:** Sagt ein Schüler ab, tragen Sie die freie Stunde in 20 Sekunden ein. Lotti fragt automatisch passende Schüler von Ihrer Warteliste. Wer zuerst zusagt, fährt. **2 Monate kostenlos**, danach 49 € im Monat, monatlich kündbar.
+- **Digital-Start:** Google-Profil, Online-Anfrageformular, WhatsApp-Vorlagen und auf Wunsch eine neue Website. Einmal eingerichtet, Festpreis.
 
-Ich suche **drei Bremer Fahrschulen**, die das **3 Monate kostenlos** mit mir testen. Die Einrichtung übernehme ich komplett. Sie brauchen etwa eine Stunde Zeit.
+Rechenbeispiel: Wird pro Woche nur **eine** abgesagte Stunde wieder gefahren, sind das bei 60 € gut 250 € Umsatz im Monat.
 
 Ich komme in den nächsten Tagen kurz bei Ihnen vorbei. Wenn Ihnen ein bestimmter Tag lieber ist, rufen Sie mich gern an oder schreiben Sie mir: [TELEFON] / [E-MAIL] / [WEBSITE]
 

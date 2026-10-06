@@ -1,5 +1,7 @@
 # Geschäftsmodell und Go-to-Market: FahrLotti
 
+> **Update 06.10.2026:** Entscheidung für die **stufenweise Leiter** (Digital-Start → Lotti Lückenfüller → FahrLotti komplett). Begründung: `swot-machbarkeit.md`. Preise im Masterprompt Abschnitt 10. Die Abschnitte unten gelten weiter, das Angebot im Gespräch ist aber zuerst Stufe 1 und 2.
+
 ## Kurzfassung
 - **Wer zahlt:** Fahrschulen (B2B). Schüler zahlen nichts.
 - **Wofür:** Mehr abrechenbare Fahrstunden pro Fahrlehrer, weniger Büro.
@@ -35,8 +37,8 @@
 | Freemium (Schule gratis, Schüler zahlen Theorie) | drivEddy-ähnlich, schneller Einstieg | Wettbewerb mit drivEddy, wenig Differenzierung | Nicht als Kern |
 
 **Entscheidung:**
-- Pilot 3 Monate kostenlos
-- Danach **Gründerpreis 99 € pro Monat + 19 € je aktivem Fahrlehrer** (netto, monatlich kündbar)
+- Digital-Start: ab 490 € einmalig (Türöffner, schnelles erstes Geld)
+- Lotti Lückenfüller: 2 Monate kostenlos, danach 49 €/Monat. Später volle Plattform: 99 € + 19 € je Fahrlehrer
 - Preisanker für das Gespräch: *„Wenn ein Fahrlehrer nur **2 zusätzliche Fahrstunden pro Woche** fährt, sind das bei rund 60 € pro Stunde etwa 480 € Mehrumsatz im Monat.“* (Stundenpreis je Schule erfragen und einsetzen.)
 
 ---
@@ -47,7 +49,7 @@
 **Mitbringen:** A6-Flyer, Tablet mit Demo (Klick-Prototyp), Visitenkarte, 1 Seite Pilot-Vereinbarung.
 
 ### Einstieg (30 Sekunden)
-> „Moin, ich bin [NAME] aus Bremen. Ich baue eine Software, die Fahrschulen hier hilft, **mit denselben Fahrlehrern mehr Fahrstunden zu fahren**. Ich verkaufe heute nichts. Ich suche drei Bremer Fahrschulen, die das kostenlos mit mir testen. Haben Sie fünf Minuten, oder passt ein anderer Tag besser?“
+> „Moin, ich bin [NAME] aus Bremen, ich hatte Ihnen den Brief von FahrLotti eingeworfen. Ich baue kleine Helfer, mit denen **abgesagte Fahrstunden automatisch wieder besetzt werden**. Ich suche drei Bremer Fahrschulen, die das 2 Monate kostenlos testen. Haben Sie fünf Minuten, oder passt ein anderer Tag besser?“
 
 ### Diagnosefragen (zuhören, notieren)
 1. „Wie viele Fahrlehrer haben Sie, und suchen Sie gerade jemanden?“
@@ -65,7 +67,7 @@
 | „Wir haben genug Schüler.“ | „Genau deshalb: Es geht nicht um mehr Schüler, sondern um **mehr Stunden mit Ihren vorhandenen Fahrlehrern**.“ |
 | „Wir haben schon Software.“ | „Was nervt Sie daran am meisten? Wir ersetzen nichts sofort, der Pilot läuft parallel.“ |
 | „Keine Zeit für Umstellung.“ | „**Ich richte alles selbst ein.** Sie geben mir eine Stunde, den Rest mache ich.“ |
-| „Was kostet das?“ | „3 Monate nichts. Danach ab 99 € im Monat, monatlich kündbar. Wenn es sich nicht rechnet, hören Sie auf.“ |
+| „Was kostet das?“ | „2 Monate nichts. Danach 49 € im Monat, monatlich kündbar. Das ist weniger als eine Fahrstunde. Wenn es sich nicht rechnet, hören Sie auf.“ |
 | „Datenschutz?“ | „Auftragsverarbeitungsvertrag, Server in der EU, Sie bleiben Herr Ihrer Daten.“ |
 | „Sind Sie drivEddy?“ | „Nein. drivEddy macht vor allem Theorie. Wir kümmern uns um Ihre Fahrlehrer-Zeit und Ihre Planung.“ |
 

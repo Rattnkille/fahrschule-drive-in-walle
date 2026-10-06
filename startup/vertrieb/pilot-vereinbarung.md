@@ -11,12 +11,12 @@
 [FAHRSCHULE], vertreten durch [INHABER], [ANSCHRIFT], im Folgenden „Fahrschule“
 
 ### 1. Gegenstand
-Der Anbieter stellt der Fahrschule die Software „FahrLotti“ (Terminplanung, Schülerverwaltung, Abrechnungshilfe) im Rahmen eines Pilotprojekts zur Verfügung. Der Anbieter erbringt keinen Fahrunterricht und keine Leistungen nach dem Fahrlehrergesetz.
+Der Anbieter stellt der Fahrschule die Software „FahrLotti“ (Modul „Lotti Lückenfüller“: Warteliste und automatische Nachbesetzung abgesagter Fahrstunden) im Rahmen eines Pilotprojekts zur Verfügung. Der Anbieter erbringt keinen Fahrunterricht und keine Leistungen nach dem Fahrlehrergesetz.
 
 ### 2. Laufzeit und Kosten
-- Pilot: **3 Monate** ab [STARTDATUM], **kostenlos**.
+- Pilot: **2 Monate** ab [STARTDATUM], **kostenlos**.
 - Der Pilot endet automatisch. Eine Weiterführung erfolgt nur durch gesonderte Vereinbarung.
-- Angebot für die Weiterführung (Gründerpreis): 99 € pro Monat zzgl. 19 € je aktivem Fahrlehrer, jeweils netto, monatlich kündbar. Gültig für Pilot-Partner, die bis [DATUM] verlängern.
+- Angebot für die Weiterführung (Gründerpreis): 49 € pro Monat, monatlich kündbar. Gültig für Pilot-Partner, die bis [DATUM] verlängern. Pilot-Partner erhalten zudem dauerhaft den Gründerpreis für spätere Module.
 
 ### 3. Leistungen des Anbieters
 - Einrichtung der Software und Übernahme vorhandener Termine/Schülerdaten (soweit von der Fahrschule bereitgestellt).
@@ -26,7 +26,7 @@ Der Anbieter stellt der Fahrschule die Software „FahrLotti“ (Terminplanung, 
 ### 4. Mitwirkung der Fahrschule
 - Nutzung im Alltag durch mindestens einen Fahrlehrer.
 - Kurzes Feedback alle 2 Wochen (15 Minuten).
-- Bereitstellung anonymisierter Kennzahlen zur Wirkungsmessung (Fahrstunden pro Woche, Ausfälle) vor Beginn und am Ende.
+- Bereitstellung anonymisierter Kennzahlen zur Wirkungsmessung (Absagen und nachbesetzte Stunden pro Woche).
 
 ### 5. Daten und Datenschutz
 - Die Fahrschule bleibt Verantwortliche für die Daten ihrer Schüler. Der Anbieter verarbeitet sie im Auftrag. Ein **Auftragsverarbeitungsvertrag (AVV)** nach Art. 28 DSGVO ist Anlage dieser Vereinbarung.
