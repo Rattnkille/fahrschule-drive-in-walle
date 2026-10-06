@@ -1,4 +1,4 @@
-# Geschäftsmodell und Go-to-Market: Spurlotse
+# Geschäftsmodell und Go-to-Market: FahrLotti
 
 ## Kurzfassung
 - **Wer zahlt:** Fahrschulen (B2B). Schüler zahlen nichts.
@@ -57,7 +57,7 @@
 5. „Wie planen Sie heute? (Papier, Excel, WhatsApp, Software?)“
 
 ### Wert spiegeln
-> „Wenn ich Sie richtig verstehe, verlieren Sie pro Woche etwa [X] Stunden an [Ausfälle/Planung/Fahrten]. Genau da setzt Spurlotse an: Vorkasse gegen Ausfälle, Termine nach Stadtteil gebündelt, Rechnungen automatisch.“
+> „Wenn ich Sie richtig verstehe, verlieren Sie pro Woche etwa [X] Stunden an [Ausfälle/Planung/Fahrten]. Genau da setzt FahrLotti an: Vorkasse gegen Ausfälle, Termine nach Stadtteil gebündelt, Rechnungen automatisch.“
 
 ### Einwände
 | Einwand | Antwort |

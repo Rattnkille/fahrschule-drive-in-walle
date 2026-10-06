@@ -1,4 +1,4 @@
-# MVP-Bauplan: Spurlotse
+# MVP-Bauplan: FahrLotti
 
 ## Prinzip
 - **Wizard of Oz:** Was teuer zu bauen ist, machen wir in den ersten Piloten manuell.
@@ -40,8 +40,8 @@
 5. **Wochenbericht:** Montags Kennzahlen je Schule (Nordstern) per E-Mail an den Inhaber.
 
 ## Geld-Fluss (ZAG-sicher)
-- Schüler zahlen **direkt an die Fahrschule** (Stripe Connect: Schule ist eigenes Konto, Spurlotse ist Plattform).
-- Spurlotse kassiert nur das eigene Abo von der Schule.
+- Schüler zahlen **direkt an die Fahrschule** (Stripe Connect: Schule ist eigenes Konto, FahrLotti ist Plattform).
+- FahrLotti kassiert nur das eigene Abo von der Schule.
 - Niemals Schülergeld auf eigenem Konto sammeln.
 
 ## Theorie (ab Reform)

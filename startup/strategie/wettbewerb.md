@@ -1,4 +1,4 @@
-# Wettbewerbsanalyse Spurlotse (Bremen)
+# Wettbewerbsanalyse FahrLotti (Bremen)
 
 Stand: 6. Oktober 2026
 
@@ -145,7 +145,7 @@ Stand: 6. Oktober 2026
 Legende: **ja** = durch Quelle belegt, **teilweise** = Hinweis, aber unklar, **nein** = laut Quellen nicht vorhanden, **unbekannt** = nichts gefunden.
 Hinweis: "nein" bedeutet hier nur "nicht beworben/auffindbar", nicht "sicher nicht vorhanden".
 
-| Spurlotse-Feature | drivEddy | 123fahrschule | ClickClickDrive | Fahrschulcockpit | Vogel | theorie24 | Autovio | Fahrstundenplaner | Excel/WhatsApp |
+| FahrLotti-Feature | drivEddy | 123fahrschule | ClickClickDrive | Fahrschulcockpit | Vogel | theorie24 | Autovio | Fahrstundenplaner | Excel/WhatsApp |
 |---|---|---|---|---|---|---|---|---|---|
 | Terminplanung | ja | ja (intern) | ja | ja | ja | nein | ja | ja | teilweise (manuell) |
 | Stadtteil-Bündelung | unbekannt | unbekannt | unbekannt | unbekannt | unbekannt | nein | unbekannt | unbekannt | nein |
@@ -160,9 +160,9 @@ Hinweis: "nein" bedeutet hier nur "nicht beworben/auffindbar", nicht "sicher nic
 
 ---
 
-## 4. Lücken, die Spurlotse besetzen kann (max. 5)
+## 4. Lücken, die FahrLotti besetzen kann (max. 5)
 
-1. **Kapazität als Steuergröße.** Kein Anbieter bewirbt abrechenbare Stunden pro Fahrlehrer pro Woche. Spurlotse zeigt Leerlauf und Fahrzeiten als Euro-Verlust.
+1. **Kapazität als Steuergröße.** Kein Anbieter bewirbt abrechenbare Stunden pro Fahrlehrer pro Woche. FahrLotti zeigt Leerlauf und Fahrzeiten als Euro-Verlust.
 2. **Stadtteil-Bündelung.** Bei keinem Anbieter belegt. Weniger Fahrtzeit, mehr bezahlte Stunden pro Fahrlehrer. Besonders relevant für ein Stadtstaat-Gebiet wie Bremen mit klaren Stadtteilen.
 3. **No-Show-Schutz mit Vorkasse.** Nur ClickClickDrive zeigt Zahlungsverwaltung. Ein verbindliches Anzahlungs- und Stornomodell ist offener Platz.
 4. **Bremen als bearbeiteter Markt.** Keine Anbieter mit Bremer Partnerschulen außer gelisteten ClickClickDrive-Einträgen. Lokale Präsenz und Vor-Ort-Onboarding sind ein Vorteil.

@@ -6,7 +6,7 @@
 
 ---
 
-[ABSENDER: Name, Spurlotse, Anschrift, Telefon, E-Mail]
+[ABSENDER: Name, FahrLotti, Anschrift, Telefon, E-Mail]
 
 [FAHRSCHULE]
 z. Hd. [INHABER]
@@ -20,7 +20,7 @@ Moin [ANREDE],
 
 [PERSÖNLICHER AUFHÄNGER, z. B. „ich habe gesehen, dass Sie gerade einen Fahrlehrer suchen.“ oder „Ihre Fahrschule in der Neustadt kenne ich seit Jahren vom Vorbeifahren.“]
 
-Ich bin Gründer aus Bremen und baue **Spurlotse**, eine Software für Fahrschulen. Das Ziel ist einfach: **Ihre Fahrlehrer fahren mehr und planen weniger.**
+Ich bin Gründer aus Bremen und baue **FahrLotti**, eine Software für Fahrschulen. Das Ziel ist einfach: **Ihre Fahrlehrer fahren mehr und planen weniger.**
 
 Konkret heißt das:
 - **Weniger Ausfälle:** Vorkasse und klare Stornoregel, freie Slots werden automatisch nachbesetzt.
@@ -36,6 +36,6 @@ Ich komme in den nächsten Tagen kurz bei Ihnen vorbei. Wenn Ihnen ein bestimmte
 Mit freundlichen Grüßen
 
 [NAME]
-Spurlotse, Bremen
+FahrLotti, Bremen
 
-*Spurlotse ist ein Angebot von [FIRMA DES EINZELUNTERNEHMENS], [ANSCHRIFT].*
+*FahrLotti ist ein Angebot von [FIRMA DES EINZELUNTERNEHMENS], [ANSCHRIFT].*

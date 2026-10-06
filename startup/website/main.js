@@ -1,7 +1,7 @@
 // Konfiguration: Zieladresse für Formulare.
 // Sobald die Projekt-E-Mail existiert, hier eintragen. FormSubmit schickt beim
 // ersten Absenden einmalig eine Bestätigungs-Mail an diese Adresse.
-const FORM_EMAIL = ""; // z. B. "kontakt@spurlotse.de"
+const FORM_EMAIL = ""; // z. B. "kontakt@fahrlotti.de"
 
 // Rechner
 (function () {

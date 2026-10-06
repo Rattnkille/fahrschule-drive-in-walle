@@ -1,4 +1,4 @@
-# Spurlotse: SEO-Keywords und Blogideen
+# FahrLotti: SEO-Keywords und Blogideen
 
 Hinweis: Suchvolumen und Wettbewerb sind hier bewusst nicht angegeben (keine erfundenen Zahlen). Vor dem Bau der Seiten die Keywords in der Google Search Console (nach Livegang), im Google Keyword Planner oder einem SEO-Tool prüfen und priorisieren.
 

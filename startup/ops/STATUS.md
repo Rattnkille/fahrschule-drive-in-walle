@@ -1,4 +1,4 @@
-# STATUS: Spurlotse
+# STATUS: FahrLotti
 
 **Stand:** 06.10.2026 · **Aktueller Meilenstein:** M1 (Website live, Formulare funktionieren)
 

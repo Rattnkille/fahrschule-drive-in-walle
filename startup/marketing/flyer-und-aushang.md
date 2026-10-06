@@ -1,4 +1,4 @@
-# Spurlotse: Flyer und Aushang
+# FahrLotti: Flyer und Aushang
 
 Platzhalter in eckigen Klammern vor dem Druck ersetzen. Keine Zahlen, Kundennamen oder Zitate ergänzen, die nicht belegt sind.
 
@@ -12,7 +12,7 @@ Format: A6 quer oder hoch, beidseitig, 300 g Naturpapier, wenig Text. Persönlic
 
 **Überschrift:** Mehr abrechenbare Fahrstunden pro Fahrlehrer. Weniger Büro.
 
-**Unterzeile:** Spurlotse, die Software für Fahrschulen aus Bremen.
+**Unterzeile:** FahrLotti, die Software für Fahrschulen aus Bremen.
 
 **Bild-Idee:** Schlichte Zeichnung eines Lotsenboots auf der Weser, ein Auto im Hintergrund. Alternativ nur Logo und viel Weiß.
 
@@ -38,7 +38,7 @@ Text neben dem Code: "Pilot-Gespräch buchen"
 
 **Kontakt:** [GRÜNDERNAME], [TELEFON], [E-MAIL], [DOMAIN]
 
-**Fußzeile:** Spurlotse ist reine Software und keine Fahrschule. Wir sind ein junges Startup aus Bremen. Angaben zu 2027 stehen unter Vorbehalt des Gesetzgebungsverfahrens. [Impressum: Firmenname, Anschrift]
+**Fußzeile:** FahrLotti ist reine Software und keine Fahrschule. Wir sind ein junges Startup aus Bremen. Angaben zu 2027 stehen unter Vorbehalt des Gesetzgebungsverfahrens. [Impressum: Firmenname, Anschrift]
 
 ### Gesprächsleitfaden für die Übergabe (nicht drucken, nur intern)
 
@@ -57,7 +57,7 @@ Format: A5 hoch, einseitig, große Schrift, hoher Kontrast, mit Abreißstreifen 
 
 **Überschrift:** Führerschein in Bremen: Wo ist noch ein Platz frei?
 
-**Unterzeile:** Spurlotse zeigt dir, welche Fahrschule in deiner Nähe wirklich freie Plätze hat. Kostenlos für Fahrschüler.
+**Unterzeile:** FahrLotti zeigt dir, welche Fahrschule in deiner Nähe wirklich freie Plätze hat. Kostenlos für Fahrschüler.
 
 **Drei Punkte:**
 - Freie Plätze sehen statt Wartelisten abtelefonieren
@@ -72,7 +72,7 @@ Format: A5 hoch, einseitig, große Schrift, hoher Kontrast, mit Abreißstreifen 
 
 **Für Eltern (kleiner Text unten):** Auch Eltern können sich eintragen und mitentscheiden.
 
-**Fußzeile:** Spurlotse ist keine Fahrschule, sondern eine App für Fahrschüler und Fahrschulen in Bremen. Dein Eintrag ist freiwillig und kostenlos. Datenschutz: [DOMAIN]/datenschutz. [Impressum: Firmenname, Anschrift]
+**Fußzeile:** FahrLotti ist keine Fahrschule, sondern eine App für Fahrschüler und Fahrschulen in Bremen. Dein Eintrag ist freiwillig und kostenlos. Datenschutz: [DOMAIN]/datenschutz. [Impressum: Firmenname, Anschrift]
 
 ### Varianten (Textzeile oben austauschen)
 

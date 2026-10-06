@@ -1,4 +1,4 @@
-# Spurlotse: Kanäle und Taktiken in Bremen
+# FahrLotti: Kanäle und Taktiken in Bremen
 
 Stand der Recherche: 6.10.2026 (Websuche). Es gilt: Nur was gefunden wurde, steht als "belegt" mit Link. Alles andere ist als "nicht belegt" markiert und muss vor Nutzung geprüft werden. Kosten: Preise wurden nicht erfunden. "Kostenlos" gilt nur, wo es die Natur des Kanals ist. Sonst "auf Anfrage". Wirkung ist eine qualitative Einschätzung, keine Messung.
 
@@ -21,7 +21,7 @@ Legende Wirkung: B2C = Anmeldungen auf der Warteliste, B2B = Pilot-Gespräche.
 | Kanal | Existiert? | Link | Kosten | Erwartete Wirkung | Vorgehen |
 |---|---|---|---|---|---|
 | Instagram und TikTok | Belegt (Plattformen) | n/a | Organisch kostenlos, Zeit für Videos | Mittel bis hoch für 16 bis 25, aber langsam aufzubauen. Eltern erreicht man hier schlecht. | Redaktionsplan in social-media-4-wochen.md. Link in Bio mit UTM. |
-| Google Unternehmensprofil (Google Business Profile) | Bekannter Google-Dienst, in dieser Recherche nicht separat über Suche belegt | [Google Business Profile](https://www.google.com/business/) (Link nicht geprüft) | Kostenlos | Mittel: für Marken- und Ortssuche ("Spurlotse Bremen"). Hilft, sobald es einen echten Ort oder Servicebereich gibt. | Profil anlegen, wenn Firmenadresse und Postbestätigung vorliegen. Richtlinien beachten (keine Fake-Standorte, keine gekauften Bewertungen). |
+| Google Unternehmensprofil (Google Business Profile) | Bekannter Google-Dienst, in dieser Recherche nicht separat über Suche belegt | [Google Business Profile](https://www.google.com/business/) (Link nicht geprüft) | Kostenlos | Mittel: für Marken- und Ortssuche ("FahrLotti Bremen"). Hilft, sobald es einen echten Ort oder Servicebereich gibt. | Profil anlegen, wenn Firmenadresse und Postbestätigung vorliegen. Richtlinien beachten (keine Fake-Standorte, keine gekauften Bewertungen). |
 | Uni Bremen: Schwarze Bretter und Stud.IP | Stud.IP ist belegt (zentrale Lernplattform, Ankündigungen laufen je Veranstaltung). Digitale Schwarze Bretter existieren laut Suche an Fachbereichen (z. B. Rechtswissenschaft). Eine zentrale, offene Werbefläche für Externe ist nicht belegt. | [Stud.IP Uni Bremen](https://www.uni-bremen.de/zmml/studip) | Kostenlos bis auf Anfrage | Mittel für Studierende, kleiner Teil der Zielgruppe | Keine Eigenwerbung in Veranstaltungen ohne Freigabe. Stattdessen AStA und Fachschaften fragen, ob Aushang oder Newsletter möglich ist. Physische Schwarze Bretter nur nach Regeln der jeweiligen Stelle. |
 | AStA Uni Bremen | Belegt | [AStA Uni Bremen](https://asta.uni-bremen.de/?p=858) | Auf Anfrage | Mittel: Studierende, über Newsletter oder Aushang | Freundlich anfragen, Nutzen für Studierende (Kostenrechner, Checkliste) erklären. Kein Anspruch auf Platzierung. |
 | Hochschule Bremen (HSB), AStA | Belegt (AStA HSB, laut Suchergebnis erreichbar über asta-hsb.de, Seite nicht separat geöffnet) | Suche: "AStA Hochschule Bremen" | Auf Anfrage | Mittel | Wie bei der Uni. Aushangregeln erfragen. |
@@ -74,7 +74,7 @@ Legende Wirkung: B2C = Anmeldungen auf der Warteliste, B2B = Pilot-Gespräche.
 
 - Minderjährige: Einwilligungsregeln für Daten prüfen (DSGVO), Eltern bei jungen Altersgruppen einbeziehen.
 - Keine Werbung auf Schulgelände ohne Genehmigung. Schulen sind besonders sensibel bei Werbung.
-- Gespräche mit Verbänden: transparent sein, dass Spurlotse ein kommerzielles Produkt ist.
+- Gespräche mit Verbänden: transparent sein, dass FahrLotti ein kommerzielles Produkt ist.
 - Keine Aussagen über konkrete Fahrschulen oder Wettbewerber.
 - Reform nur als "geplant" kommunizieren, mit Stand-Datum.
 

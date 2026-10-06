@@ -6,12 +6,12 @@
 ---
 
 **Zwischen**
-[ANBIETER] (handelnd unter der Bezeichnung „Spurlotse“), [ANSCHRIFT], im Folgenden „Anbieter“
+[ANBIETER] (handelnd unter der Bezeichnung „FahrLotti“), [ANSCHRIFT], im Folgenden „Anbieter“
 **und**
 [FAHRSCHULE], vertreten durch [INHABER], [ANSCHRIFT], im Folgenden „Fahrschule“
 
 ### 1. Gegenstand
-Der Anbieter stellt der Fahrschule die Software „Spurlotse“ (Terminplanung, Schülerverwaltung, Abrechnungshilfe) im Rahmen eines Pilotprojekts zur Verfügung. Der Anbieter erbringt keinen Fahrunterricht und keine Leistungen nach dem Fahrlehrergesetz.
+Der Anbieter stellt der Fahrschule die Software „FahrLotti“ (Terminplanung, Schülerverwaltung, Abrechnungshilfe) im Rahmen eines Pilotprojekts zur Verfügung. Der Anbieter erbringt keinen Fahrunterricht und keine Leistungen nach dem Fahrlehrergesetz.
 
 ### 2. Laufzeit und Kosten
 - Pilot: **3 Monate** ab [STARTDATUM], **kostenlos**.

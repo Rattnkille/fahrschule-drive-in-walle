@@ -1,4 +1,4 @@
-# ⚓ Spurlotse (Arbeitsname)
+# ⚓ FahrLotti 
 
 Software für Fahrschulen in Bremen: **mehr Fahrstunden pro Fahrlehrer, weniger Büro.**
 

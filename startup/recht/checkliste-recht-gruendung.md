@@ -1,4 +1,4 @@
-# Checkliste Recht und Gründung: Spurlotse (B2B-SaaS für Fahrschulen)
+# Checkliste Recht und Gründung: FahrLotti (B2B-SaaS für Fahrschulen)
 
 Stand: 06.10.2026 | Ort: Bremen | Rechtsform jetzt: Einzelunternehmen (Catering), später UG/GmbH
 
@@ -13,7 +13,7 @@ Stand: 06.10.2026 | Ort: Bremen | Rechtsform jetzt: Einzelunternehmen (Catering)
 
 | # | To-do | Aufwand | Nur der Gründer kann das |
 |---|-------|---------|--------------------------|
-| 1 | Marke "Spurlotse" selbst in DPMAregister, EUIPO eSearch plus und TMview prüfen, danach Domain sichern | 1 bis 2 Std. | ja (Entscheidung und Konto) |
+| 1 | Marke "FahrLotti" selbst in DPMAregister, EUIPO eSearch plus und TMview prüfen, danach Domain sichern | 1 bis 2 Std. | ja (Entscheidung und Konto) |
 | 2 | Termin beim Steuerberater: Gewerbeerweiterung, Umsatzsteuer, Kleinunternehmer ja/nein, Trennung Catering und Software | 1 Termin | ja |
 | 3 | Gewerbe in Bremen um die neue Tätigkeit ummelden (eMeldung, 18 EUR) | 30 Min. | ja (Identität, Unterschrift/Login) |
 | 4 | Finanzamt über geänderte Tätigkeit informieren (ELSTER) | 30 Min. | ja (ELSTER-Zugang) |
@@ -34,7 +34,7 @@ Danach: Zahlungsfluss ohne Geldweiterleitung festlegen (Thema 9), Lizenzpartner 
 - Steuer: Es bleibt **ein** Unternehmen im Sinne des Umsatzsteuerrechts (Catering und Software zusammen). Die Kleinunternehmergrenze (§ 19 UStG, seit 2025: 25.000 EUR Netto-Vorjahresumsatz und voraussichtlich höchstens 100.000 EUR im laufenden Jahr) gilt für den **Gesamtumsatz**, nicht je Geschäftsfeld. Falls das Catering schon Regelbesteuerung hat, ist die Frage meist erledigt.
 - SaaS an deutsche Fahrschulen (B2B): in der Regel 19 % USt, Rechnung mit USt-Ausweis. Als Kleinunternehmer: Rechnung ohne USt, dafür kein Vorsteuerabzug (unbestätigt: Auswirkung auf B2B-Preise mit Steuerberater klären). Fahrschulen sind meist vorsteuerabzugsberechtigt, deshalb ist Kleinunternehmer für B2B-SaaS oft wenig attraktiv.
 - E-Rechnung: Empfang im B2B seit 2025 Pflicht, Ausstellungspflicht kommt stufenweise bis 2028 (unbestätigt, Steuerberater fragen).
-- Pizza-Catering und Spurlotse: **getrennte Konten, getrennte Buchungskreise, getrennte Rechnungsnummern**. Haftung bleibt aber unbeschränkt mit dem ganzen Privat- und Cateringvermögen (Einzelunternehmen), deshalb Berufs-/IT-Haftpflicht und Cyberversicherung prüfen.
+- Pizza-Catering und FahrLotti: **getrennte Konten, getrennte Buchungskreise, getrennte Rechnungsnummern**. Haftung bleibt aber unbeschränkt mit dem ganzen Privat- und Cateringvermögen (Einzelunternehmen), deshalb Berufs-/IT-Haftpflicht und Cyberversicherung prüfen.
 - IHK: Mitgliedschaft in der Handelskammer Bremen (IHK) besteht schon durch das Catering. Beitrag und mögliche Freistellung für Kleinstgewerbe bei der Kammer erfragen (Schwellenwerte unbestätigt).
 
 **Kosten/Zeit:** Gewerbeummeldung 18 EUR (laut Suchtreffer Bremer Serviceportal), Bestätigung per Post mit Gebührenbescheid. Steuerberater-Erstgespräch: Preis erfragen, oft 100 bis 300 EUR (unbestätigt).
@@ -66,9 +66,9 @@ Danach: Zahlungsfluss ohne Geldweiterleitung festlegen (Thema 9), Lizenzpartner 
 
 ---
 
-## 3. Markenrecherche "Spurlotse"
+## 3. Markenrecherche "FahrLotti"
 
-**Ergebnis meiner Recherche:** Die Websuche nach "Spurlotse" in Verbindung mit Marke, DPMA, EUIPO und Fahrschule lieferte **keinen Treffer** auf eine Eintragung oder einen Anbieter. **Das ist kein Nachweis der Freiheit**: DPMAregister und EUIPO konnten wegen der Netzsperre **nicht direkt abgefragt** werden. Status daher: **(unbestätigt) ungeprüft in den Registern.** Auch ähnliche Zeichen (klanglich "Spurlotsen", "Spurenlotse", "Lotse" in Verkehr/Navigation) sind nicht geprüft.
+**Ergebnis meiner Recherche:** Die Websuche wurde für den früheren Arbeitsnamen "Spurlotse" gemacht (kein Treffer). **Der neue Name "FahrLotti" ist noch gar nicht geprüft.** DPMAregister und EUIPO waren wegen der Netzsperre nicht direkt abfragbar. Status: **(unbestätigt) ungeprüft in den Registern.** Ähnliche Zeichen prüfen: "Lotti", "Fahr Lotti", "FahrLotte", "Lotse" in Verkehr/Navigation.
 
 **Was tun**
 - Selbstprüfung heute, kostenlos:
@@ -76,8 +76,8 @@ Danach: Zahlungsfluss ohne Geldweiterleitung festlegen (Thema 9), Lizenzpartner 
   - DPMA Recherche-Hilfe: https://www.dpma.de/marken/markenrecherche/index.html
   - EUIPO eSearch plus: https://euipo.europa.eu/eSearch/
   - TMview (viele Ämter gleichzeitig): https://www.tmdn.org/tmview/
-  - Suchbegriffe: "Spurlotse", "Spurlotsen", "Spur Lotse", "Spurenlotse", dazu Klassen 9, 42, 41 und eine freie Suche nach "lotse" in 9/42/41.
-- Zusätzlich: Domain spurlotse.de/.com/.app prüfen, Handelsregister und Firmenwebsuche, App-Stores, Social-Media-Handles.
+  - Suchbegriffe: "FahrLotti", "Fahr Lotti", "Lotti", "FahrLotte", dazu Klassen 9, 42, 41.
+- Zusätzlich: Domain fahrlotti.de/.com/.app prüfen, Handelsregister und Firmenwebsuche, App-Stores, Social-Media-Handles.
 - Vor der Anmeldung eine **Ähnlichkeitsrecherche durch Anwalt oder Markenservice** erwägen (das Register zeigt nur identische und ähnliche Marken, nicht Unternehmenskennzeichen und Titelschutz).
 - Anmeldung als **Wortmarke**, Klassen: **9** (Software, Apps), **42** (SaaS, Softwareentwicklung, Hosting), **41** (Schulung, Unterricht, E-Learning, nur wenn ihr solche Leistungen erbringt oder plant; ihr bildet nicht selbst aus, Verzeichnis eng halten).
 - Beobachten: Nach Eintragung läuft eine Widerspruchsfrist von 3 Monaten für Inhaber älterer Marken.
@@ -96,7 +96,7 @@ Danach: Zahlungsfluss ohne Geldweiterleitung festlegen (Thema 9), Lizenzpartner 
 ## 4. Website-Pflichten
 
 **Was tun**
-- **Impressum** (§ 5 DDG): Name, ladungsfähige Anschrift, E-Mail und eine zweite schnelle Kontaktmöglichkeit (Kontaktformular reicht oft zusätzlich zur E-Mail, Telefon ist nicht zwingend), USt-IdNr. oder Wirtschafts-IdNr., sofern vorhanden. Als Einzelunternehmer mit **vollem Namen** und Firma (z. B. "Vorname Nachname, Inhaber Spurlotse"). Von jeder Seite mit 2 Klicks erreichbar. Achtung: Die Firma des Caterings und "Spurlotse" als Geschäftsbezeichnung sauber trennen, kein Rechtsformzusatz erfinden.
+- **Impressum** (§ 5 DDG): Name, ladungsfähige Anschrift, E-Mail und eine zweite schnelle Kontaktmöglichkeit (Kontaktformular reicht oft zusätzlich zur E-Mail, Telefon ist nicht zwingend), USt-IdNr. oder Wirtschafts-IdNr., sofern vorhanden. Als Einzelunternehmer mit **vollem Namen** und Firma (z. B. "Vorname Nachname, Inhaber FahrLotti"). Von jeder Seite mit 2 Klicks erreichbar. Achtung: Die Firma des Caterings und "FahrLotti" als Geschäftsbezeichnung sauber trennen, kein Rechtsformzusatz erfinden.
 - **Datenschutzerklärung** (Art. 13 DSGVO): Verantwortlicher, Zwecke, Rechtsgrundlagen, Empfänger (Hoster, Mail-Tool), Drittlandtransfer, Speicherdauer, Betroffenenrechte, Beschwerderecht bei der **Landesbeauftragten für Datenschutz und Informationsfreiheit Bremen**. Eigene Version für die Web-App (Fahrschulen als Nutzer) und getrennt für die Landingpage.
 - **Cookies und ähnliche Technologien** (§ 25 TDDDG, früher TTDSG): Einwilligung vor Setzen nicht notwendiger Cookies, Tracking oder Einbindung externer Dienste (Google Fonts, Analytics, Kalender-Widgets, Chat). Ohne Tracking kein Banner nötig: **Schriften lokal einbinden, kein Analytics oder datenschutzfreundliches Analytics ohne Cookies** (Einwilligungsfreiheit je Tool prüfen, unbestätigt).
 - **Formulare:** Kontakt- und Demoformular nur mit Datenminimierung, Hinweis auf Datenschutzerklärung, TLS, kein Pflichtfeld für Unnötiges. Keine Newsletter-Checkbox vorangekreuzt, Double-Opt-In.
@@ -117,12 +117,12 @@ Danach: Zahlungsfluss ohne Geldweiterleitung festlegen (Thema 9), Lizenzpartner 
 
 ## 5. DSGVO für die Plattform
 
-**Rollen:** Fahrschule = **Verantwortlicher** (hat die Fahrschüler und den Ausbildungsvertrag). Spurlotse = **Auftragsverarbeiter** (Art. 28 DSGVO) für Verwaltung, Termine, Lernstand. Für eigene Daten (Nutzerkonten der Fahrschulleiter, Website, Abrechnung) ist Spurlotse selbst Verantwortlicher.
+**Rollen:** Fahrschule = **Verantwortlicher** (hat die Fahrschüler und den Ausbildungsvertrag). FahrLotti = **Auftragsverarbeiter** (Art. 28 DSGVO) für Verwaltung, Termine, Lernstand. Für eigene Daten (Nutzerkonten der Fahrschulleiter, Website, Abrechnung) ist FahrLotti selbst Verantwortlicher.
 
 **Was tun**
 - **AVV** (Art. 28) als Anlage zum Hauptvertrag mit **jeder** Fahrschule: Gegenstand, Dauer, Art der Daten (Stammdaten, Lernfortschritt, Termine; **keine** Gesundheitsdaten wie Sehtest oder Führerscheinakte im ersten Schritt), TOMs-Anlage, Unterauftragnehmerliste mit Zustimmungsmechanik, Löschung bei Vertragsende, Meldefristen für Datenpannen, Auditrechte. Vertragsübernahme auf spätere UG vorsehen.
 - **Minderjährige:** BF17 und Lernbeginn mit ca. 16,5 Jahren (unbestätigt) bedeuten, dass viele Nutzer unter 18 sind. Wichtig:
-  - **Art. 8 DSGVO** (Einwilligung ab 16, darunter nur mit Eltern) gilt für **Einwilligungen** bei **Diensten der Informationsgesellschaft, die direkt einem Kind angeboten werden**. Wenn Spurlotse nur die Plattform der Fahrschule ist und die Daten auf Grundlage des Ausbildungsvertrags (Art. 6 Abs. 1 lit. b) verarbeitet werden, ist Art. 8 für die Kernverarbeitung eher nicht der Hebel. Dennoch: Der **Ausbildungsvertrag mit Minderjährigen** braucht die Zustimmung der gesetzlichen Vertreter (§§ 107, 108 BGB), das regelt die Fahrschule.
+  - **Art. 8 DSGVO** (Einwilligung ab 16, darunter nur mit Eltern) gilt für **Einwilligungen** bei **Diensten der Informationsgesellschaft, die direkt einem Kind angeboten werden**. Wenn FahrLotti nur die Plattform der Fahrschule ist und die Daten auf Grundlage des Ausbildungsvertrags (Art. 6 Abs. 1 lit. b) verarbeitet werden, ist Art. 8 für die Kernverarbeitung eher nicht der Hebel. Dennoch: Der **Ausbildungsvertrag mit Minderjährigen** braucht die Zustimmung der gesetzlichen Vertreter (§§ 107, 108 BGB), das regelt die Fahrschule.
   - Ein eigenes Schüler-Login mit optionalen Funktionen (Push, Marketing, Analytics) nur mit Einwilligung, bei unter 16 mit Elterneinwilligung. Optionales weglassen oder ab 16 plus Elternweg.
   - Keine Werbung an Fahrschüler, kein Profiling, einfache Sprache in der Datenschutzinformation.
 - **Hosting in der EU:** Region Frankfurt oder Dublin, Anbieter mit EU-Sitz oder EU-Gesellschaft bevorzugen, AVV vorhanden, Unterauftragnehmerliste, Drittlandtransfer nur mit SCC/DPF und Transfer Impact Assessment (Anwalt).
@@ -189,7 +189,7 @@ Danach: Zahlungsfluss ohne Geldweiterleitung festlegen (Thema 9), Lizenzpartner 
 
 **Wer darf digitalen Theorieunterricht anbieten oder verantworten?**
 - Nach den Berichten bleibt die **Fahrschule** (mit Fahrschulerlaubnis, verantwortlichem Leiter und Fahrlehrern) in der Ausbildungspflicht und entscheidet über Form des Unterrichts, "der Fahrlehrer bleibt im Prozess eingebunden". Ein reiner Plattformanbieter ohne Fahrschulerlaubnis ist danach **nicht** selbst Ausbildungsträger. Ob das Gesetz ausdrücklich Drittanbieter-Plattformen regelt oder verbietet, steht im Gesetzestext (Paragrafen des FahrlG) und konnte hier **nicht** verifiziert werden: **(unbestätigt)**.
-- Konsequenz für Spurlotse: **Software-Dienstleister für Fahrschulen** bleiben, die Fahrschule bleibt Verantwortliche für Inhalt, Aufsicht und Dokumentation. Kein eigenes Theorie-"Hosting als Ausbildungsangebot an Fahrschüler" unter eigenem Namen, keine "Fahrschule im Netz".
+- Konsequenz für FahrLotti: **Software-Dienstleister für Fahrschulen** bleiben, die Fahrschule bleibt Verantwortliche für Inhalt, Aufsicht und Dokumentation. Kein eigenes Theorie-"Hosting als Ausbildungsangebot an Fahrschüler" unter eigenem Namen, keine "Fahrschule im Netz".
 - Marktumfeld: Die börsennotierte **123fahrschule SE** bewirbt ihr Modell als künftigen Standard und bietet anderen Fahrschulen Kooperationen an (Quelle: EQS-Mitteilungen). Wettbewerbsdruck einplanen.
 
 **Was tun**
@@ -217,7 +217,7 @@ Danach: Zahlungsfluss ohne Geldweiterleitung festlegen (Thema 9), Lizenzpartner 
 
 **Was tun**
 - Grundsatz: Der amtliche Fragenkatalog der theoretischen Prüfung ist **lizenzpflichtig**. Die **TÜV | DEKRA arge tp 21 GbR** (Sitz laut Suchtreffer Dresden) vergibt Lizenzen an Lernsoftware-Anbieter. **Nicht scrapen, nicht abtippen, keine Fragen kopieren.**
-- Weg 1 (empfohlen für den Start): **Lizenzierten Partner einbinden**, Spurlotse selbst zeigt nur Verwaltung, Lernstand und Verlinkung. Partner ansprechen und fragen: White-Label, Einbettung (iFrame/SSO), API für Lernstand, Preismodell pro Fahrschüler, Datenschutz/AVV, EU-Hosting, Umgang mit dem Katalogwechsel 2027 (Katalog schrumpft laut Berichten um ein Drittel).
+- Weg 1 (empfohlen für den Start): **Lizenzierten Partner einbinden**, FahrLotti selbst zeigt nur Verwaltung, Lernstand und Verlinkung. Partner ansprechen und fragen: White-Label, Einbettung (iFrame/SSO), API für Lernstand, Preismodell pro Fahrschüler, Datenschutz/AVV, EU-Hosting, Umgang mit dem Katalogwechsel 2027 (Katalog schrumpft laut Berichten um ein Drittel).
 - Weg 2: **Eigene Lizenz** bei der arge tp 21 beantragen. Vertragsbedingungen, Kosten und technische Schnittstelle sind **(unbestätigt)**, bitte schriftlich anfragen (Kontakt über die Website der arge tp 21, Adresse hier nicht verifiziert).
 - Bekannte lizenzierte Anbieter laut Suchtreffern (ob White-Label/API angeboten wird, ist **(unbestätigt)**, immer direkt fragen):
   - **theorie24 GmbH**: nennt sich offizieller Lizenzpartner von TÜV | DEKRA, Apps "Führerschein PRO/GOLD".
@@ -242,11 +242,11 @@ Danach: Zahlungsfluss ohne Geldweiterleitung festlegen (Thema 9), Lizenzpartner 
 
 ## 9. Zahlungen (Stripe, ZAG)
 
-**Das Risiko in einem Satz:** Wer fremdes Geld **annimmt und weiterleitet** (Fahrschüler zahlt an Spurlotse, Spurlotse zahlt an die Fahrschule), kann nach dem **ZAG** (Zahlungsdiensteaufsichtsgesetz) einen **erlaubnispflichtigen Zahlungsdienst** (Finanztransfer, Zahlungsauslösung/Akquisition) erbringen, auch "ungewollt". Zuständig: **BaFin**. Unerlaubte Zahlungsdienste sind strafbar (§ 63 ZAG, unbestätigt). Die Ausnahme für **Handelsvertreter** (§ 2 Abs. 1 Nr. 2 ZAG) ist eng und für eine Plattform, die beide Seiten bedient, in der Regel **nicht** sicher nutzbar. Vor jeder Variante mit Geldweiterleitung: Anwalt mit Zahlungsaufsichtsrecht.
+**Das Risiko in einem Satz:** Wer fremdes Geld **annimmt und weiterleitet** (Fahrschüler zahlt an FahrLotti, FahrLotti zahlt an die Fahrschule), kann nach dem **ZAG** (Zahlungsdiensteaufsichtsgesetz) einen **erlaubnispflichtigen Zahlungsdienst** (Finanztransfer, Zahlungsauslösung/Akquisition) erbringen, auch "ungewollt". Zuständig: **BaFin**. Unerlaubte Zahlungsdienste sind strafbar (§ 63 ZAG, unbestätigt). Die Ausnahme für **Handelsvertreter** (§ 2 Abs. 1 Nr. 2 ZAG) ist eng und für eine Plattform, die beide Seiten bedient, in der Regel **nicht** sicher nutzbar. Vor jeder Variante mit Geldweiterleitung: Anwalt mit Zahlungsaufsichtsrecht.
 
 **Was tun**
-- **Phase 1 (empfohlen): kein Geldfluss über Spurlotse.** Spurlotse schreibt nur die **eigene SaaS-Rechnung** an die Fahrschule (SEPA-Lastschrift oder Rechnung/Karte). Fahrschüler zahlen **direkt an die Fahrschule** (deren Bankkonto, deren Zahlungsanbieter).
-- **Phase 2 bei Bedarf:** **Stripe Connect** mit Fahrschule als **Connected Account** (eigenes Onboarding/KYC bei Stripe), Zahlung direkt zugunsten der Fahrschule ("Direct Charges"), Spurlotse nimmt nur eine **Plattformgebühr** (Application Fee). Dann hält **Stripe** die Zahlungserlaubnis und das Geld fließt nicht über euer Konto. Ob und unter welchen Voraussetzungen Spurlotse trotzdem ZAG-relevant ist, bitte anwaltlich bestätigen lassen **(unbestätigt)**. Stripe verweist selbst auf regulatorische Besonderheiten für Marktplätze in Deutschland.
+- **Phase 1 (empfohlen): kein Geldfluss über FahrLotti.** FahrLotti schreibt nur die **eigene SaaS-Rechnung** an die Fahrschule (SEPA-Lastschrift oder Rechnung/Karte). Fahrschüler zahlen **direkt an die Fahrschule** (deren Bankkonto, deren Zahlungsanbieter).
+- **Phase 2 bei Bedarf:** **Stripe Connect** mit Fahrschule als **Connected Account** (eigenes Onboarding/KYC bei Stripe), Zahlung direkt zugunsten der Fahrschule ("Direct Charges"), FahrLotti nimmt nur eine **Plattformgebühr** (Application Fee). Dann hält **Stripe** die Zahlungserlaubnis und das Geld fließt nicht über euer Konto. Ob und unter welchen Voraussetzungen FahrLotti trotzdem ZAG-relevant ist, bitte anwaltlich bestätigen lassen **(unbestätigt)**. Stripe verweist selbst auf regulatorische Besonderheiten für Marktplätze in Deutschland.
 - **Nicht tun:** Fahrschulgelder auf das Stripe-Konto des Einzelunternehmens (Catering-Konto) einsammeln und manuell weiterüberweisen. Kein Sammeln von Fahrstundenpaketen im Namen der Fahrschule.
 - **Stripe-Konto für das Einzelunternehmen:** möglich (Einzelunternehmer mit Gewerbe, Identitäts- und Kontonachweis, Geschäftsbezeichnung), **separat** vom Catering führen und die richtige Tätigkeit (Software/SaaS) angeben. Verwendungszweck und Kategorie ehrlich angeben, sonst Sperrung. Details (Verifikation, Gebühren, Auszahlung) **(unbestätigt)**, bei Stripe prüfen.
 - Rechnungen im Namen der Fahrschule ("Abrechnung im Namen"): nur mit klarer Vollmacht, korrekten Rechnungsangaben (§ 14 UStG, Gutschriftverfahren § 14 Abs. 2 UStG) und Steuerberater. Besser vermeiden.

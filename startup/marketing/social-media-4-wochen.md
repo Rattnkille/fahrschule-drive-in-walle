@@ -1,6 +1,6 @@
-# Spurlotse: Social-Media-Redaktionsplan, 4 Wochen
+# FahrLotti: Social-Media-Redaktionsplan, 4 Wochen
 
-Arbeitsname "Spurlotse". Reine Software, keine Fahrschule. Ton: freundlich, klar, bodenständig, hanseatisch.
+Arbeitsname "FahrLotti". Reine Software, keine Fahrschule. Ton: freundlich, klar, bodenständig, hanseatisch.
 
 ## Ziele und Messung
 
@@ -43,7 +43,7 @@ Hashtag-Basis (immer dabei): #Führerschein #Fahrschule #Bremen #FührerscheinBr
   2. 3 bis 10 s: Kurze Straßenumfrage-Schnitte, nur mit Einwilligung. Alternative ohne Personen: Text-Einblendungen "Wochen? Monate? Keine Ahnung?"
   3. 10 bis 17 s: "Wir bauen etwas, das dir zeigt, welche Fahrschule bei dir in der Nähe freie Plätze hat."
   4. 17 bis 20 s: "Link in Bio: Warteliste. Schreib in die Kommentare, wie lange du wartest."
-- **Caption:** Wie lange hast du gewartet oder wartest du gerade? Wartelisten bei Fahrschulen sind in Bremen ein Thema, aber keiner sagt dir vorher, wo es wirklich weitergeht. Wir bauen Spurlotse, damit du das künftig auf einen Blick siehst. Noch in der Entstehung, deshalb gibt es erst mal eine Warteliste. Link in Bio.
+- **Caption:** Wie lange hast du gewartet oder wartest du gerade? Wartelisten bei Fahrschulen sind in Bremen ein Thema, aber keiner sagt dir vorher, wo es wirklich weitergeht. Wir bauen FahrLotti, damit du das künftig auf einen Blick siehst. Noch in der Entstehung, deshalb gibt es erst mal eine Warteliste. Link in Bio.
 - **Hashtags:** #Führerschein #Fahrschule #Bremen #FührerscheinBremen #Fahrschüler #Wartezeit #BremenLiebe #Fahrstunden
 
 ### Post 2 (Mittwoch): Kosten-Reel
@@ -59,10 +59,10 @@ Hashtag-Basis (immer dabei): #Führerschein #Fahrschule #Bremen #FührerscheinBr
 - **Hook:** "Wir sind keine Fahrschule. Wir sind der Lotse."
 - **Skript (ca. 20 s):**
   1. 0 bis 4 s: Hafen-Kulisse (Überseehafen oder Weser), Hook als Text.
-  2. 4 bis 14 s: "Spurlotse ist eine App für Fahrschüler in Bremen: freie Plätze sehen, Kosten verstehen, Theorie planen. Kostenlos für dich."
+  2. 4 bis 14 s: "FahrLotti ist eine App für Fahrschüler in Bremen: freie Plätze sehen, Kosten verstehen, Theorie planen. Kostenlos für dich."
   3. 14 bis 20 s: "Wir starten bald. Wer sich jetzt einträgt, ist als Erste:r dabei. Link in Bio."
-- **Caption:** Ein Lotse bringt Schiffe sicher in den Hafen. Wir wollen dich sicher zum Führerschein bringen, ohne selbst Fahrschule zu sein. Spurlotse ist eine kostenlose App für Fahrschüler in Bremen, gerade im Aufbau. Trag dich auf die Warteliste ein, dann melden wir uns zum Start (Early Access).
-- **Hashtags:** #Spurlotse #Bremen #Führerschein #Fahrschule #EarlyAccess #Warteliste #Hafen #Weser
+- **Caption:** Ein Lotse bringt Schiffe sicher in den Hafen. Wir wollen dich sicher zum Führerschein bringen, ohne selbst Fahrschule zu sein. FahrLotti ist eine kostenlose App für Fahrschüler in Bremen, gerade im Aufbau. Trag dich auf die Warteliste ein, dann melden wir uns zum Start (Early Access).
+- **Hashtags:** #FahrLotti #Bremen #Führerschein #Fahrschule #EarlyAccess #Warteliste #Hafen #Weser
 
 ## Woche 2: Nutzen und Eltern
 
@@ -80,8 +80,8 @@ Hashtag-Basis (immer dabei): #Führerschein #Fahrschule #Bremen #FührerscheinBr
 - **Skript (ca. 25 s):**
   1. 0 bis 3 s: Hook, Küchentisch-Szene.
   2. 3 bis 18 s: Drei Fragen als Text: "Was ist im Grundbetrag enthalten?", "Wie wird bezahlt (Raten, Vorkasse)?", "Was passiert bei ausgefallenen Stunden?"
-  3. 18 bis 25 s: "Mit Spurlotse wollen wir diese Fragen vor der Anmeldung beantwortbar machen. Warteliste, Link in Bio."
-- **Caption:** Eltern reden bei der Fahrschulwahl mit, oft auch beim Bezahlen. Diese drei Fragen helfen bei jedem Gespräch mit einer Fahrschule. Wir bauen Spurlotse so, dass Kosten und Regeln vorher klar sind. Schick den Post an deine Eltern oder an dein Kind.
+  3. 18 bis 25 s: "Mit FahrLotti wollen wir diese Fragen vor der Anmeldung beantwortbar machen. Warteliste, Link in Bio."
+- **Caption:** Eltern reden bei der Fahrschulwahl mit, oft auch beim Bezahlen. Diese drei Fragen helfen bei jedem Gespräch mit einer Fahrschule. Wir bauen FahrLotti so, dass Kosten und Regeln vorher klar sind. Schick den Post an deine Eltern oder an dein Kind.
 - **Hashtags:** #Eltern #Führerschein #Kosten #Fahrschule #Bremen #Familie #Fahrschüler #Teenager
 
 ### Post 6 (Samstag): Stadtteil-Reel
@@ -131,7 +131,7 @@ Hashtag-Basis (immer dabei): #Führerschein #Fahrschule #Bremen #FührerscheinBr
   2. 3 bis 20 s: "Wir sind keine Fahrschule. Wir bauen Software für Fahrschulen, damit Termine besser geplant werden. Für dich soll daraus sichtbar werden, wo Plätze frei sind."
   3. 20 bis 25 s: "Wir sind noch am Anfang. Dabei sein? Link in Bio."
 - **Caption:** Ehrlich gesagt: Wir stehen am Anfang. Wir sprechen mit Bremer Fahrschulen, damit die Daten stimmen, die du später siehst. Bis dahin sammeln wir auf der Warteliste alle, die dabei sein wollen. [GRÜNDERNAME] beantwortet Fragen gern in den Kommentaren.
-- **Hashtags:** #Startup #Bremen #BehindTheScenes #Gründer #Spurlotse #Fahrschule #Führerschein #Bremer
+- **Hashtags:** #Startup #Bremen #BehindTheScenes #Gründer #FahrLotti #Fahrschule #Führerschein #Bremer
 
 ### Post 11 (Mittwoch): Fragen-Reel
 - **Hook:** "Frag uns alles zum Führerschein in Bremen."
@@ -146,10 +146,10 @@ Hashtag-Basis (immer dabei): #Führerschein #Fahrschule #Bremen #FührerscheinBr
 - **Hook:** "Du willst 2027 den Führerschein machen? Dann trag dich jetzt ein."
 - **Skript (ca. 15 s):**
   1. 0 bis 3 s: Hook, Weserblick.
-  2. 3 bis 11 s: "Spurlotse: freie Plätze sehen, Kosten verstehen, Theorie planen. Kostenlos für Fahrschüler."
+  2. 3 bis 11 s: "FahrLotti: freie Plätze sehen, Kosten verstehen, Theorie planen. Kostenlos für Fahrschüler."
   3. 11 bis 15 s: "Early Access für Bremen. Link in Bio."
 - **Caption:** Du, deine Freundin oder dein Bruder wollen bald loslegen? Auf der Warteliste bist du beim Start in Bremen dabei. Kostenlos, ohne Verpflichtung. Verlinke jemanden, der den Führerschein plant.
-- **Hashtags:** #Warteliste #EarlyAccess #Führerschein2027 #Bremen #Fahrschule #Führerschein #Spurlotse #Fahrschüler
+- **Hashtags:** #Warteliste #EarlyAccess #Führerschein2027 #Bremen #Fahrschule #Führerschein #FahrLotti #Fahrschüler
 
 ---
 
@@ -164,7 +164,7 @@ Ihr Fahrlehrer ist der Engpass, nicht die Nachfrage.
 
 Wer in Bremen eine Fahrschule führt, kennt das: Die Warteliste ist lang, trotzdem bleiben Stunden leer, weil ein Schüler kurzfristig absagt oder weil die nächste Fahrt am anderen Ende der Stadt beginnt. Gleichzeitig fehlen Fahrlehrer, und das Büro hängt am Telefon und an Zetteln.
 
-Wir bauen Spurlotse, eine Software für Fahrschulen, die genau an dieser Stelle ansetzt: Terminplanung, Zahlung, Akte, Rechnung. Das Ziel: mehr abrechenbare Fahrstunden pro Fahrlehrer, weniger Büro.
+Wir bauen FahrLotti, eine Software für Fahrschulen, die genau an dieser Stelle ansetzt: Terminplanung, Zahlung, Akte, Rechnung. Das Ziel: mehr abrechenbare Fahrstunden pro Fahrlehrer, weniger Büro.
 
 Wir sind ein junges Bremer Startup und suchen für den Start zehn Fahrschulen, mit denen wir das gemeinsam entwickeln. Unser Angebot heißt "Pilot-Partner Bremen" (dazu in zwei Wochen mehr).
 
@@ -194,7 +194,7 @@ Der leere Termin kostet den Fahrlehrer die Stunde.
 
 Wenn ein Schüler nicht erscheint, ist die Stunde weg, der Lohn des Fahrlehrers läuft aber weiter. Viele Schulen haben Regeln dafür, aber wenig Zeit, sie jedes Mal durchzusetzen.
 
-Bei Spurlotse arbeiten wir an Vorkasse und einem No-Show-Schutz: Termine werden mit klaren Bedingungen gebucht, Zahlungen laufen digital, Erinnerungen gehen automatisch raus. Welche Ausfallregeln gelten, legen Sie als Inhaber fest. Die vertragliche Seite (AGB, Ausfallentgelt) sollten Sie in jedem Fall mit Ihrem Verband oder Anwalt abstimmen.
+Bei FahrLotti arbeiten wir an Vorkasse und einem No-Show-Schutz: Termine werden mit klaren Bedingungen gebucht, Zahlungen laufen digital, Erinnerungen gehen automatisch raus. Welche Ausfallregeln gelten, legen Sie als Inhaber fest. Die vertragliche Seite (AGB, Ausfallentgelt) sollten Sie in jedem Fall mit Ihrem Verband oder Anwalt abstimmen.
 
 Haben Sie klare Regeln für kurzfristige Absagen? Und halten Ihre Schüler sie ein? Ich freue mich über Ihre Erfahrungen in den Kommentaren.
 
@@ -220,7 +220,7 @@ Das Bundeskabinett hat einen Gesetzentwurf zur Reform der Fahrausbildung beschlo
 
 Was bedeutet das für Inhaber? Eine Chance, wenn Sie Fahrlehrer von Theorieabenden entlasten wollen. Eine Aufgabe, weil Sie Online-Angebote organisieren müssen. Und es kann mehr Transparenz geben: Nach dem Entwurf sollen Preise und Erfolgsquoten von Fahrschulen online veröffentlicht werden.
 
-Wir bereiten Online-Theorie für Spurlotse ab 2027 vor, damit Sie die Entscheidung haben, nicht den Zwang.
+Wir bereiten Online-Theorie für FahrLotti ab 2027 vor, damit Sie die Entscheidung haben, nicht den Zwang.
 
 Wie bereiten Sie sich vor? Abwarten, ausprobieren, schon Pläne?
 
@@ -231,7 +231,7 @@ Wenn der Abend an der Tafel statt im Auto liegt.
 
 Theorieabende binden Fahrlehrer an Zeiten, in denen sie sonst fahren oder frei hätten. Das ist heute notwendig, weil Präsenz Pflicht ist. Ob und wie sich das ändert, hängt am Gesetzgebungsverfahren, geplant ist eine Lockerung ab 1.1.2027.
 
-Wer dann Online-Theorie anbieten will, braucht Inhalte, Teilnahmenachweis und eine saubere Abrechnung. Das ist unser Plan für Spurlotse. Verbindlich zusagen können wir erst, wenn die endgültigen Regeln feststehen.
+Wer dann Online-Theorie anbieten will, braucht Inhalte, Teilnahmenachweis und eine saubere Abrechnung. Das ist unser Plan für FahrLotti. Verbindlich zusagen können wir erst, wenn die endgültigen Regeln feststehen.
 
 Falls Sie mit uns darüber sprechen wollen: Im Pilot können wir die Anforderungen gemeinsam durchgehen, mit Ihrer Praxis als Maßstab.
 
@@ -252,7 +252,7 @@ Was wir anbieten:
 
 Was wir von Ihnen brauchen: Ehrliches Feedback und etwas Zeit zum Start, ungefähr ein Gespräch und eine Einweisung.
 
-Wir bauen Spurlotse nicht am Reißbrett, sondern mit Fahrschulen aus Bremen, die den Alltag kennen. Es gibt nur zehn Plätze.
+Wir bauen FahrLotti nicht am Reißbrett, sondern mit Fahrschulen aus Bremen, die den Alltag kennen. Es gibt nur zehn Plätze.
 
 Interesse? Schreiben Sie mir eine Nachricht oder buchen Sie 20 Minuten: [LINK]
 
