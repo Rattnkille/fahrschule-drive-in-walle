@@ -1,6 +1,6 @@
 # STATUS: FahrLotti
 
-**Stand:** 06.10.2026 · **Aktueller Meilenstein:** M1 (Website live, Formulare funktionieren) · **Strategie:** stufenweise Leiter
+**Stand:** 07.10.2026 · **Aktueller Meilenstein:** M1 (Website live, Formulare funktionieren) · **Strategie:** stufenweise Leiter
 
 ## 🚧 Blocker (wartet auf Gründer)
 1. Projekt-E-Mail fehlt → Formulare können noch nicht zustellen
@@ -17,6 +17,7 @@ Details: `gruender-todos.md`
 | Kennzahl | Ist | Ziel bis M5 |
 |---|---|---|
 | Leads gesamt / A-Leads | 29 / 2 | 40 / 15 |
+| Briefe druckfertig (bis auf Absender) | 5 | 20 |
 | Kontaktiert (Brief/Besuch) | 0 | 20 |
 | Gespräche geführt | 0 | 10 |
 | Pilot-Partner | 0 | 3 |
@@ -27,11 +28,16 @@ Details: `gruender-todos.md`
 ## ✅ Erledigt
 - 06.10.2026: Masterprompt, Geschäftsmodell, Vertriebsleitfaden, Brief-Vorlage, Pilot-Vereinbarung (Entwurf), MVP-Bauplan, Wettbewerbsanalyse, Rechts-Checkliste, Marketing-Paket (Social, Flyer, SEO, Presse), Landingpage mit Pilot- und Wartelisten-Formular, Deploy-Workflow, Lead-Liste (29)
 
+## ✅ Erledigt 07.10.2026
+- Klick-Demo Lotti Lückenfüller: `website/demo-lueckenfueller.html` (4 Schritte, Beispieldaten, Handy getestet)
+- Faktencheck mit Quellen: `strategie/fakten-check.md`
+- 5 persönliche Briefe Runde 1: `vertrieb/briefe-runde-1.md`
+
 ## ⏭️ Nächste Schritte (Agent)
 1. Lead-Liste auf 40 erweitern, A-Leads anreichern (Stellenanzeigen für Fahrlehrer = Kaufsignal)
-2. Personalisierte Briefe für die Top 5 vorbereiten
-3. Lotti Lückenfüller als Klick-Demo bauen (Formulare + Beispielablauf)
-4. Offene Prüfpunkte aus `strategie/realitaets-check.md` mit Quellen belegen
+2. Flyer A6 als druckfertiges PDF (für Besuche)
+3. Bremer Fahrschulzahl beim Referat 53 / KBA klären (Lücke im Faktencheck)
+4. Nach Repo-Umzug: Website live, Demo verlinken
 
 ## ⏱️ Fristen
 - 🛑 06.01.2027: weniger als 3 Schulen zahlen (Digital-Start) oder testen (Lückenfüller), dann Pivot

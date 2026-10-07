@@ -2,6 +2,11 @@
 
 > Ein Eintrag pro Arbeitslauf. Neueste oben. Max. 5 Zeilen pro Eintrag.
 
+## 07.10.2026 (Tagesroutine)
+- Erledigt: Klick-Demo Lückenfüller, Faktencheck (Markt, Kosten, Durchfallquoten, Multiples), 5 Briefe Runde 1.
+- Korrigiert: Brief-Aufhänger behaupteten Gespräche, die es noch nicht gab.
+- Blocker unverändert: Repo, E-Mail, Impressum-Daten.
+
 ## 06.10.2026 (Nachtrag)
 - Entscheidungen: Name FahrLotti, stufenweise Leiter. Kein Kontakt zu Drive In Walle, die Website im Repo ist nur eine Vorlage.
 - Achtung: Die Muster-Website enthält Beispielzahlen (500+ Schüler, 98 %, 4,9 Sterne) und eine Fantasie-Adresse. Nie öffentlich als echte Fahrschule zeigen.
