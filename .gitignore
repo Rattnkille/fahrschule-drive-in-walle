@@ -1,0 +1,8 @@
+# Zugangsdaten niemals committen
+keys.md
+*.key
+.env
+.env.*
+.vercel
+node_modules/
+.next/
