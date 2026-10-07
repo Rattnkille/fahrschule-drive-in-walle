@@ -66,6 +66,6 @@
 > 🎯 **Weiter-Kriterium:** **1 zahlender Kunde nach 6 Monaten (bis 06.04.2027)** und messbar mehr Fahrstunden pro Fahrlehrer bei Piloten.
 
 ## Offene Prüfpunkte (Routine)
-- [ ] Anzahl Fahrschulen in Deutschland und Bremen mit Quelle belegen (KBA, Fahrlehrerverbände)
-- [ ] Verkaufsmultiples für vertikale SaaS im DACH-Raum mit Quelle belegen
-- [ ] Durchschnittliche Führerscheinkosten Bremen mit Quelle belegen (für Zahlungs-Take-Rate)
+- [x] Anzahl Fahrschulen: DE ca. 9.300 bis 10.000, Bremen offen (siehe `fakten-check.md`)
+- [x] Verkaufsmultiples: ca. 3 bis 4x ARR für kleine SaaS (siehe `fakten-check.md`)
+- [x] Führerschein B ca. 3.300 bis 3.500 €, Fahrstunde ca. 55 bis 77 € (siehe `fakten-check.md`)
