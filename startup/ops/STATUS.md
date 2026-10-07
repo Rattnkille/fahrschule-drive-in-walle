@@ -4,7 +4,7 @@
 
 ## 🚧 Blocker (wartet auf Gründer)
 1. Projekt-E-Mail fehlt → Formulare können noch nicht zustellen
-2. GitHub Pages aktivieren und PR mergen → Website nicht online
+2. Eigenes Repo `fahrlotti` fehlt (nur Gründer kann es anlegen) → Website nicht online
 3. Impressum-Daten fehlen → Website darf so nicht öffentlich beworben werden
 
 Details: `gruender-todos.md`
@@ -34,5 +34,5 @@ Details: `gruender-todos.md`
 4. Offene Prüfpunkte aus `strategie/realitaets-check.md` mit Quellen belegen
 
 ## ⏱️ Fristen
-- 🛑 06.01.2027: 3 Pilot-Schulen, sonst Pivot
-- 🎯 06.04.2027: 1 zahlender Kunde
+- 🛑 06.01.2027: weniger als 3 Schulen zahlen (Digital-Start) oder testen (Lückenfüller), dann Pivot
+- 🎯 06.04.2027: 1 Schule zahlt monatlich
