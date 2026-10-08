@@ -1,6 +1,6 @@
 # STATUS: FahrLotti
 
-**Stand:** 07.10.2026 · **Aktueller Meilenstein:** M1 (Website live, Formulare funktionieren) · **Strategie:** stufenweise Leiter
+**Stand:** 08.10.2026 · **Aktueller Meilenstein:** M1 (Website live, Formulare funktionieren) · **Strategie:** stufenweise Leiter
 
 ## 🚧 Blocker (wartet auf Gründer)
 1. Projekt-E-Mail fehlt → Formulare können noch nicht zustellen
@@ -33,9 +33,13 @@ Details: `gruender-todos.md`
 - Faktencheck mit Quellen: `strategie/fakten-check.md`
 - 5 persönliche Briefe Runde 1: `vertrieb/briefe-runde-1.md`
 
+## ✅ Erledigt 08.10.2026
+- Flyer A6 (2 Seiten, neues Stufen-Angebot): `vertrieb/druck/flyer-a6.pdf`
+- Angebot Digital-Start (1 Seite A4, 490 €): `vertrieb/druck/angebot-digital-start.pdf`
+
 ## ⏭️ Nächste Schritte (Agent)
 1. Lead-Liste auf 40 erweitern, A-Leads anreichern (Stellenanzeigen für Fahrlehrer = Kaufsignal)
-2. Flyer A6 als druckfertiges PDF (für Besuche)
+2. AVV-Vorlage (Auftragsverarbeitung) als Anlage zur Pilot-Vereinbarung
 3. Bremer Fahrschulzahl beim Referat 53 / KBA klären (Lücke im Faktencheck)
 4. Nach Repo-Umzug: Website live, Demo verlinken
 

@@ -2,6 +2,10 @@
 
 > Ein Eintrag pro Arbeitslauf. Neueste oben. Max. 5 Zeilen pro Eintrag.
 
+## 08.10.2026 (Tagesroutine)
+- Erledigt: Flyer A6 und Angebot Digital-Start als druckfertige PDFs (Platzhalter gelb).
+- Blocker unverändert: Repo, E-Mail, Impressum-Daten.
+
 ## 07.10.2026 (Tagesroutine)
 - Erledigt: Klick-Demo Lückenfüller, Faktencheck (Markt, Kosten, Durchfallquoten, Multiples), 5 Briefe Runde 1.
 - Korrigiert: Brief-Aufhänger behaupteten Gespräche, die es noch nicht gab.
