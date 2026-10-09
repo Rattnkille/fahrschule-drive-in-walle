@@ -37,7 +37,35 @@
 | Vergleich und Platzsuche in Bremen | kostenlos für Schüler, Schule zahlt pro Anmeldung | 15 bis 30 € pro Anmeldung | 🟢 Schüler zahlen nichts, Schulen zahlen für Kunden |
 | „Vorrang auf der Warteliste“ gegen Geld | Schüler | | 🔴 nicht machen, wirkt unfair, schadet den Schulen |
 
-## 4. Nächste Schritte
+## 5. Laienausbildung und Simulatoren: so verdient FahrLotti mit
+
+> Geplant: Nach bestandener Theorie mehr als 1.000 km private Übungsfahrten mit Begleitperson, als Test über 5 Jahre (vermutlich nur in Modellregionen, Details offen). Dazu Fahrsimulatoren als günstige Zusatzpraxis.
+
+### Idee A: „Lotti Übungsbuch“ (B2B2C, Hauptchance)
+- **Was:** App für Schüler und Begleitperson, ausgegeben **von der Fahrschule**. Der Fahrlehrer gibt Übungsaufgaben nach Lernstand vor (z. B. „3× Kreisverkehr Neustadt“, „Autobahnauffahrt A27“). Die Begleitperson hakt ab, Kilometer und Situationen werden protokolliert.
+- **Check-Stunde:** Nach z. B. 300 km oder bei Problemen schlägt Lotti eine Kontrollstunde bei der Schule vor. **Damit wird private Übung wieder zu gebuchten Fahrstunden.**
+- **Wer zahlt:** Schüler oder Eltern zahlen über die Schule, z. B. 39 € einmalig. **Umsatzteilung 50/50** zwischen Schule und FahrLotti. Die Schule verdient an der Laienausbildung mit, statt nur Stunden zu verlieren.
+- **Zusatz:** „Begleiter-Einweisung“ als kurzer Online-Kurs der Schule, z. B. 49 € pro Begleitperson, FahrLotti stellt die Plattform (Umsatzteilung).
+
+**Rechenbeispiel (Annahmen):** 150 Schüler pro Schule, 30 % nutzen die Laienausbildung, 39 € Übungsbuch: ca. 1.750 € pro Schule und Jahr, davon ca. 880 € für FahrLotti. Dazu kommen die Check-Stunden für die Schule.
+
+### Idee B: Simulator-Sharing Bremen
+- Ein Simulator ist für eine einzelne kleine Schule teuer. **FahrLotti vermittelt Simulator-Zeiten** zwischen Schulen (eine Schule kauft oder mietet, andere buchen Slots).
+- **Wer zahlt:** Buchungsgebühr pro Slot (z. B. 3 bis 5 €) oder Provision vom Simulator-Hersteller pro vermitteltem Gerät.
+- **Aufwand:** gering, gleiche Technik wie der Lückenfüller (freie Slots an Interessenten).
+
+### Risiken und Regeln
+- **Nicht vor dem finalen Gesetz bauen.** Erst klären: Wird Bremen Modellregion? Gibt es Nachweispflichten für Übungsfahrten?
+- **Datenschutz:** GPS-Daten von Minderjährigen nur freiwillig und sparsam. Lieber Abhaken als Dauer-Tracking.
+- **Keine Haftung übernehmen:** FahrLotti protokolliert, die Verantwortung bleibt bei Schule und Begleitperson.
+- **Simulatoren nicht selbst kaufen.** Nur vermitteln.
+
+### Reihenfolge
+1. In Gesprächen fragen: „Würden Sie Ihren Schülern ein Übungsbuch für private Fahrten verkaufen?“
+2. Bei 2 positiven Antworten: Klick-Demo „Übungsbuch“.
+3. Bau erst, wenn Gesetz und Modellregion feststehen.
+
+## 6. Nächste Schritte
 - Im Verkaufsgespräch zuerst fragen: „Wie wollen Sie nach der Reform Zusatzstunden begründen?“ und „Was passiert, wenn Ihre Bestehensquote öffentlich ist?“
 - Lernstand-Funktion als Klick-Demo bauen, sobald 2 Schulen das Problem bestätigen.
 - Prüfen, ob Bremen Modellregion für Begleitpersonen-Üben wird.
