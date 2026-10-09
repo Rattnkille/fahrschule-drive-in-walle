@@ -2,6 +2,10 @@
 
 > Ein Eintrag pro Arbeitslauf. Neueste oben. Max. 5 Zeilen pro Eintrag.
 
+## 09.10.2026 (Tagesroutine)
+- Erledigt: AVV-Vorlage. Verkaufspaket ist vollständig.
+- Entscheidung: Ab dem nächsten Lauf nur noch Blocker in einer Zeile, bis der Gründer Daten, E-Mail oder Repo liefert.
+
 ## 08.10.2026 (Tagesroutine)
 - Erledigt: Flyer A6 und Angebot Digital-Start als druckfertige PDFs (Platzhalter gelb).
 - Blocker unverändert: Repo, E-Mail, Impressum-Daten.
