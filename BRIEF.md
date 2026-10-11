@@ -100,3 +100,25 @@ Vorschlag: WhatsApp als Hauptbutton (Zielgruppe Schüler), Anruf als zweiter Weg
 - **Headline:** Bereit für die erste Fahrstunde?
 - **Text:** Schreib uns kurz, wir melden uns am selben Tag und planen deinen Start.
 - **Button:** [OFFEN] je nach Ziel der Seite
+
+---
+
+## Entscheidungen (Stand Phase 5)
+
+Vom Inhaber freigegeben: „Entscheide alle Punkte selber.“ Leitlinie dabei: **nichts erfinden.** Unbestätigte Fakten werden weggelassen statt geraten.
+
+| Punkt | Entscheidung |
+|---|---|
+| Hero | Entwurf C (Foto + Empathie), neues KI-Leitbild einer ruhigen Fahrstunde |
+| Telefon | `0174 / 36 36 150` (steht so im Schaufenster). Alter Link hatte eine Null zu viel, korrigiert |
+| Adresse | Nur „Bremen-Walle“ + Google-Maps-Link aus der alten Seite. „Waller Ring 123“ entfernt |
+| E-Mail | `info@driveinwalle.de` übernommen, vor Livegang prüfen |
+| WhatsApp | gleiche Mobilnummer wie Telefon, vor Livegang prüfen |
+| Preise | Keine Zahlen. Transparente Kostenbestandteile + „Kostenplan im Beratungsgespräch“ |
+| Kennzahlen | Entfernt (keine echten Werte vorhanden) |
+| Bewertungen | Keine Zitate. Button zu echten Google-Bewertungen |
+| Team | Vorerst nicht gezeigt, bis echte Namen und Fotos vorliegen |
+| Struktur | Ein Onepager statt fünf Unterseiten, plus Impressum und Datenschutz |
+| Fotos | `bilder/hero-fahrstunde.jpg` (KI-generiert, Stimmungsbild) und `bilder/ladenfront.jpg` (echtes Foto vom Inhaber) |
+
+**Vor dem Livegang zwingend:** Impressum und Datenschutz mit echten Angaben füllen.
