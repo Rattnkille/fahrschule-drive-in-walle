@@ -1,0 +1,11 @@
+{
+  "absender": {
+    "name": "[DEIN NAME]",
+    "telefon": "[DEINE TELEFONNUMMER]",
+    "email": "[DEINE E-MAIL]",
+    "web": "[DEINE WEBSITE ODER REFERENZ, z. B. www.driveinwalle.de]"
+  },
+  "angebot": "Fertige Website für 990 € einmalig plus 39 € im Monat für Hosting und Pflege, alternativ Tausch gegen eine Leistung Ihres Betriebs (z. B. Führerschein oder Kurs)",
+  "max_demos": 5,
+  "scraper_pfad": ""
+}

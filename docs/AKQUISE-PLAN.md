@@ -37,3 +37,29 @@ Lokale Betriebe (Fahrschulen, Flugschulen, Paragliding, …) finden, eine Demo-W
 - `GOOGLE_PLACES_API_KEY` aus einem funktionierenden Google-Konto
 - optional `OPENROUTER_API_KEY`
 - Erkenntnisse aus dem Drive-In-Walle-Projekt (Zeitaufwand, Qualität, was der Kunde wirklich braucht)
+
+## So startest du eine Runde (automatisiert)
+
+**Voraussetzungen auf dem Mac (einmalig)**
+- Repo lokal klonen und darin Claude Code öffnen
+- Node.js, Docker (für den Google Maps Scraper) und `npx playwright install chromium`
+- `akquise/einstellungen.json` ausfüllen (Absender, Angebot, ggf. Pfad zum Scraper)
+
+**Start in einem neuen Tab**
+```
+/akquise Fahrschule Bremen 5
+```
+
+**Was automatisch passiert**
+| Phase | Subagent | Modell |
+|---|---|---|
+| Suchen | `lead-scout` (Scraper oder CSV) | Standard |
+| Prüfen | `website-pruefer` pro Betrieb, parallel | Haiku (günstig) |
+| Bauen | `demo-bauer` (Kundendatei + Werkstatt) | Standard |
+| Kontrolle | unabhängiger Prüfer, eine Reparaturrunde | Standard |
+| Anschreiben | `anschreiben-texter` (Brief, Telefon, E-Mail-Entwurf) | Standard |
+| Übersicht | `UEBERSICHT.md` mit Freigabe-Checkliste | Standard |
+
+**Was bei dir bleibt:** Demos ansehen, online stellen, Brief abschicken oder anrufen. E-Mails erst nach Einwilligung.
+
+Dateien: `.claude/workflows/akquise.js`, `.claude/agents/*.md`, `.claude/commands/akquise.md`, Ergebnisse in `akquise/<datum>-<branche>-<ort>/` (nicht im Git).

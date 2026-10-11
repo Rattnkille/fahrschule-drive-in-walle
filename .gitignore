@@ -9,3 +9,6 @@ node_modules/
 
 # Generator-Ausgabe (wird aus werkstatt/kunden/*.json erzeugt)
 werkstatt/ausgabe/
+
+# Akquise-Ergebnisse (enthalten Firmendaten, nicht ins Git)
+akquise/*/
