@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="de" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{seo.titel}}</title>
+<meta name="description" content="{{seo.beschreibung}}">
+<meta name="theme-color" content="#14171C">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="{{domain}}/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{seo.titel}}">
+<meta property="og:description" content="{{seo.beschreibung}}">
+<meta property="og:url" content="{{domain}}/">
+<meta property="og:image" content="{{domain}}/bilder/hero.jpg">
+<meta property="og:locale" content="de_DE">
+<script type="application/ld+json">{{{schema_json}}}</script>
+<link rel="preload" href="fonts/plus-jakarta-sans-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<style>:root { --blue: {{farben.primaer}}; --blue-deep: {{farben.primaer_tief}}; --orange: {{farben.akzent}}; }</style>
+<script>document.documentElement.classList.remove('no-js');</script>
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="wrap nav">
+    <a class="logo" href="#top" aria-label="{{name}}, zum Seitenanfang">{{{logo_html}}}</a>
+    <nav aria-label="Hauptnavigation">
+      <ul>
+        <li><a href="#leistungen">{{navigation.leistungen}}</a></li>
+        <li><a href="#ablauf">Ablauf</a></li>
+        {{#kosten}}<li><a href="#kosten">Kosten</a></li>{{/kosten}}
+        <li><a href="#fragen">Fragen</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-primary" href="tel:{{kontakt.telefon_link}}">{{kontakt.telefon}}</a>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <section class="hero" aria-labelledby="hero-title" style="padding:0">
+      <svg class="hero-art" viewBox="0 0 800 640" preserveAspectRatio="xMaxYMax slice" aria-hidden="true">
+        <path d="M800 120 C 620 180, 560 330, 640 430 S 760 600, 560 700 L 900 700 L 900 120 Z" fill="var(--blue)" opacity=".18"/>
+        <path d="M820 40 C 600 140, 470 300, 560 440 S 700 620, 430 720" fill="none" stroke="#2A3445" stroke-width="120" stroke-linecap="round"/>
+        <path d="M820 40 C 600 140, 470 300, 560 440 S 700 620, 430 720" fill="none" stroke="#F7F5F0" stroke-width="5" stroke-dasharray="30 24" opacity=".7"/>
+        <circle cx="655" cy="175" r="70" fill="none" stroke="var(--orange)" stroke-width="26"/>
+      </svg>
+      <img src="bilder/hero.jpg" alt="{{hero.bild_alt}}" width="2000" height="1116" fetchpriority="high" onerror="this.remove()">
+      <div class="hero-content">
+        <p class="label">{{hero.kicker}}</p>
+        <h1 id="hero-title">{{hero.titel}}</h1>
+        <p>{{hero.text}}</p>
+        <ul class="checks">
+          {{#hero.punkte}}<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>{{.}}</li>
+          {{/hero.punkte}}
+        </ul>
+        <div class="actions">
+          <a class="btn btn-primary" href="tel:{{kontakt.telefon_link}}">{{{icon_telefon}}} {{hero.button}}</a>
+          <a class="btn btn-light" href="#ablauf">{{hero.button2}}</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section aria-labelledby="fuer-wen">
+    <div class="wrap audience">
+      <div class="reveal">
+        <p class="label">Für wen wir da sind</p>
+        <h2 id="fuer-wen">{{zielgruppen.titel}}</h2>
+        <p class="lead">{{zielgruppen.text}}</p>
+      </div>
+      <div class="rows reveal">
+        {{#zielgruppen.liste}}<div class="row">
+          <span class="ico">{{{icon}}}</span>
+          <div><h3>{{titel}}</h3><p>{{text}}</p></div>
+        </div>
+        {{/zielgruppen.liste}}
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="leistungen" aria-labelledby="leistungen-title">
+    <div class="wrap">
+      <div class="services-head reveal">
+        <div>
+          <p class="label">{{navigation.leistungen}}</p>
+          <h2 id="leistungen-title">{{leistungen.titel}}</h2>
+        </div>
+        <p class="lead">{{leistungen.text}}</p>
+      </div>
+      <div class="service-grid">
+        {{#leistungen.liste}}<article class="service reveal">
+          <span class="num">{{nr}}</span>
+          <h3>{{titel}}</h3>
+          <p>{{text}}</p>
+        </article>
+        {{/leistungen.liste}}
+      </div>
+    </div>
+  </section>
+
+  <section id="ablauf" aria-labelledby="ablauf-title">
+    <div class="wrap steps-wrap">
+      <p class="label reveal">Ablauf</p>
+      <h2 id="ablauf-title" class="reveal">{{ablauf.titel}}</h2>
+      <ol class="steps">
+        {{#ablauf.schritte}}<li class="step reveal"><span class="dot">{{nr}}</span><div><h3>{{titel}}</h3><p>{{text}}</p></div></li>
+        {{/ablauf.schritte}}
+      </ol>
+    </div>
+  </section>
+
+  <section class="calm" aria-labelledby="calm-title">
+    <div class="wrap calm-grid">
+      <div class="reveal">
+        <p class="label">Unser Versprechen</p>
+        <h2 id="calm-title">{{versprechen.titel}}</h2>
+        <p class="lead">{{versprechen.text}}</p>
+        <ul class="promises">
+          {{#versprechen.punkte}}<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><div><b>{{titel}}</b><span>{{text}}</span></div></li>
+          {{/versprechen.punkte}}
+        </ul>
+      </div>
+      {{#angebot}}<div class="deal reveal">
+        <p class="label" style="color:var(--ink)">{{angebot.kicker}}</p>
+        <div class="big">{{angebot.gross}}</div>
+        <p>{{angebot.text}}</p>
+        <small>{{angebot.hinweis}}</small>
+      </div>{{/angebot}}
+    </div>
+  </section>
+
+  {{#kosten}}<section id="kosten" aria-labelledby="kosten-title">
+    <div class="wrap costs-grid">
+      <div class="reveal">
+        <p class="label">Kosten</p>
+        <h2 id="kosten-title">{{kosten.titel}}</h2>
+        <p class="lead">{{kosten.text}}</p>
+        <div class="actions"><a class="btn btn-primary" href="tel:{{kontakt.telefon_link}}">{{kosten.button}}</a></div>
+      </div>
+      <div class="reveal">
+        <ul class="cost-list">
+          {{#kosten.posten}}<li><div><b>{{titel}}</b><span>{{text}}</span></div><em>{{einheit}}</em></li>
+          {{/kosten.posten}}
+        </ul>
+        <p class="costs-note">{{kosten.hinweis}}</p>
+      </div>
+    </div>
+  </section>{{/kosten}}
+
+  {{#kontakt.bewertungen_link}}<section class="reviews" aria-labelledby="stimmen-title">
+    <div class="wrap">
+      <div class="reviews-box reveal">
+        <div>
+          <p class="label">Erfahrungen</p>
+          <h2 id="stimmen-title">Was unsere Kunden sagen</h2>
+          <p>Echte Bewertungen findest du direkt bei Google. Lies selbst, wie es anderen bei uns ergangen ist.</p>
+        </div>
+        <a class="btn btn-ghost" href="{{kontakt.bewertungen_link}}" target="_blank" rel="noopener">Bewertungen auf Google lesen</a>
+      </div>
+    </div>
+  </section>{{/kontakt.bewertungen_link}}
+
+  <section id="fragen" aria-labelledby="fragen-title">
+    <div class="wrap faq-grid">
+      <div class="reveal">
+        <p class="label">Häufige Fragen</p>
+        <h2 id="fragen-title">Gut zu wissen</h2>
+      </div>
+      <div class="reveal">
+        {{#fragen}}<details>
+          <summary>{{frage}}</summary>
+          <p>{{antwort}}</p>
+        </details>
+        {{/fragen}}
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="kontakt" aria-labelledby="kontakt-title">
+    <div class="wrap contact-grid">
+      <div class="reveal">
+        <p class="label">Kontakt</p>
+        <h2 id="kontakt-title">{{kontakt.titel}}</h2>
+        <p class="lead">{{kontakt.text}}</p>
+        <ul class="contact-list">
+          <li><a href="tel:{{kontakt.telefon_link}}">{{{icon_telefon}}}<span>{{kontakt.telefon}}</span></a></li>
+          {{#kontakt.whatsapp_link}}<li><a href="https://wa.me/{{kontakt.whatsapp_link}}" target="_blank" rel="noopener">{{{icon_whatsapp}}}<span>WhatsApp schreiben</span></a></li>{{/kontakt.whatsapp_link}}
+          {{#kontakt.email}}<li><a href="mailto:{{kontakt.email}}">{{{icon_mail}}}<span>{{kontakt.email}}</span></a></li>{{/kontakt.email}}
+          {{#kontakt.maps_link}}<li><a href="{{kontakt.maps_link}}" target="_blank" rel="noopener">{{{icon_karte}}}<span>Route in Google Maps</span></a></li>{{/kontakt.maps_link}}
+        </ul>
+      </div>
+      <figure class="storefront reveal">
+        <div class="storefront-fallback" aria-hidden="true"><span>{{{logo_html}}}</span><small>{{ort}}</small></div>
+        <img src="bilder/standort.jpg" alt="{{kontakt.bild_alt}}" width="1600" height="1120" loading="lazy" onerror="this.remove()">
+        <figcaption>Hier findest du uns in {{ort}}</figcaption>
+      </figure>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <span>© <span id="year">2026</span> {{name}} · {{ort}}</span>
+    <nav aria-label="Rechtliches"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></nav>
+  </div>
+</footer>
+
+<div class="callbar" aria-label="Schnellkontakt">
+  <a class="btn btn-primary" href="tel:{{kontakt.telefon_link}}">Anrufen</a>
+  {{#kontakt.whatsapp_link}}<a class="btn btn-ghost" href="https://wa.me/{{kontakt.whatsapp_link}}" target="_blank" rel="noopener">WhatsApp</a>{{/kontakt.whatsapp_link}}
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>

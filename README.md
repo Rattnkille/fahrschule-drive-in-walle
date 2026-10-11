@@ -11,6 +11,13 @@ Statischer Onepager (HTML, CSS, etwas JavaScript). Keine Abhängigkeiten, kein B
 2. Optional Fotos in `bilder/` legen (siehe `bilder/LIESMICH.txt`)
 3. ZIP neu packen, falls Dateien geändert wurden
 
+## Werkstatt für weitere Kunden
+Aus derselben Vorlage lassen sich weitere Websites bauen:
+```
+node werkstatt/bauen.mjs werkstatt/kunden/drive-in-walle.json
+```
+Anleitung: `.claude/skills/website-bauen/SKILL.md`
+
 ## Dateien
 | Datei | Zweck |
 |---|---|

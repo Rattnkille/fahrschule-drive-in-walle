@@ -6,3 +6,6 @@ keys.md
 .vercel
 node_modules/
 .next/
+
+# Generator-Ausgabe (wird aus werkstatt/kunden/*.json erzeugt)
+werkstatt/ausgabe/

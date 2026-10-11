@@ -1,0 +1,86 @@
+{
+  "name": "Beispiel Gleitschirmschule",
+  "logo": [{ "text": "Beispiel", "farbe": "primaer" }, { "text": "Gleitschirm", "farbe": "akzent" }],
+  "ort": "[ORT]",
+  "stadt": "[STADT]",
+  "domain": "https://www.beispiel-gleitschirm.de",
+  "schema_typ": "SportsActivityLocation",
+  "farben": { "primaer": "#2F7D5B", "primaer_tief": "#1F5A41", "akzent": "#F2B233" },
+  "seo": {
+    "titel": "Beispiel Gleitschirmschule · Paragliding lernen",
+    "beschreibung": "Vorlage für eine Flug- oder Gleitschirmschule. Alle Inhalte sind Platzhalter und müssen durch echte Angaben ersetzt werden."
+  },
+  "navigation": { "leistungen": "Kurse" },
+  "hero": {
+    "kicker": "Gleitschirmschule in [ORT]",
+    "titel": "Einmal fliegen wie ein Vogel? Wir zeigen dir, wie es sicher geht.",
+    "text": "Vom ersten Hüpfer am Übungshang bis zum eigenen Schein: mit erfahrenen Fluglehrern und in deinem Tempo.",
+    "punkte": ["Schnuppertag zum Reinfühlen", "Kleine Gruppen am Übungshang", "Ausrüstung kann geliehen werden"],
+    "button": "Jetzt anrufen",
+    "button2": "So läuft der Kurs",
+    "bild_alt": "Gleitschirm über grünen Hügeln bei klarem Himmel"
+  },
+  "zielgruppen": {
+    "titel": "Fliegen lernen kann fast jeder.",
+    "text": "Du brauchst keine Vorerfahrung, nur Lust auf Neues. Wir passen den Kurs an dich an.",
+    "liste": [
+      { "icon": "wind", "titel": "Neugierige", "text": "Erst mal reinschnuppern, ohne gleich einen ganzen Kurs zu buchen." },
+      { "icon": "berg", "titel": "Abenteurer", "text": "Du willst den Schein und später selbstständig fliegen." },
+      { "icon": "menschen", "titel": "Gruppen", "text": "Ein Erlebnis für Freunde, Familie oder das Team." },
+      { "icon": "schild", "titel": "Sicherheitsbewusste", "text": "Wir erklären jeden Schritt und fliegen nur bei passendem Wetter." }
+    ]
+  },
+  "leistungen": {
+    "titel": "Unsere Kurse",
+    "text": "[KURZE BESCHREIBUNG DES ANGEBOTS]",
+    "liste": [
+      { "titel": "Schnupperkurs", "text": "[BESCHREIBUNG]" },
+      { "titel": "Grundkurs", "text": "[BESCHREIBUNG]" },
+      { "titel": "Höhenflugkurs", "text": "[BESCHREIBUNG]" },
+      { "titel": "Tandemflug", "text": "[BESCHREIBUNG]" }
+    ]
+  },
+  "ablauf": {
+    "titel": "In vier Schritten in die Luft",
+    "schritte": [
+      { "titel": "Beratung", "text": "[TEXT]" },
+      { "titel": "Übungshang", "text": "[TEXT]" },
+      { "titel": "Erste Höhenflüge", "text": "[TEXT]" },
+      { "titel": "Prüfung", "text": "[TEXT]" }
+    ]
+  },
+  "versprechen": {
+    "titel": "Sicher starten. Entspannt landen.",
+    "text": "[TEXT]",
+    "punkte": [
+      { "titel": "[PUNKT 1]", "text": "[TEXT]" },
+      { "titel": "[PUNKT 2]", "text": "[TEXT]" },
+      { "titel": "[PUNKT 3]", "text": "[TEXT]" }
+    ]
+  },
+  "fragen": [
+    { "frage": "Brauche ich Vorerfahrung?", "antwort": "[ANTWORT]" },
+    { "frage": "Was passiert bei schlechtem Wetter?", "antwort": "[ANTWORT]" }
+  ],
+  "kontakt": {
+    "titel": "Bereit für deinen ersten Flug?",
+    "text": "Ruf an oder schreib uns, wir finden den passenden Termin.",
+    "telefon": "[TELEFON]",
+    "telefon_link": "[TELEFON]",
+    "whatsapp_link": "",
+    "email": "",
+    "maps_link": "",
+    "bewertungen_link": "",
+    "bild_alt": "Startplatz der Gleitschirmschule"
+  },
+  "recht": {
+    "inhaber": "[VOR- UND NACHNAME]",
+    "strasse": "[STRASSE HAUSNUMMER]",
+    "plz_ort": "[PLZ ORT]",
+    "ust_id": "",
+    "berufsangaben": "",
+    "aufsichtsbehoerde": "[DATENSCHUTZ-AUFSICHTSBEHÖRDE DES BUNDESLANDS]",
+    "stand": "[MONAT JAHR]",
+    "bildnachweis": "[BILDNACHWEIS]"
+  }
+}

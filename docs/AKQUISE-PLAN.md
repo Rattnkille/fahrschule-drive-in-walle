@@ -1,6 +1,6 @@
 # Akquise-Plan: Websites für lokale Betriebe
 
-> **Status: geparkt.** Erst wird die Website für Drive In Walle fertig. Sie ist der Prototyp und das Referenzprojekt für alles, was hier steht.
+> **Status:** Prototyp Drive In Walle ist fertig. Die Werkstatt (`werkstatt/`, Skill `website-bauen`) erzeugt Demo-Seiten aus einer Kundendatei. Nächster Schritt: Pilot mit 10 Betrieben, dafür fehlt noch der Places-API-Key.
 
 ## Idee
 Lokale Betriebe (Fahrschulen, Flugschulen, Paragliding, …) finden, eine Demo-Website vorab bauen und sie für einen fairen Preis oder im Tausch (z. B. Motorradführerschein) verkaufen.
