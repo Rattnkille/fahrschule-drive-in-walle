@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+/* Schrift lokal eingebunden (DSGVO: keine Verbindung zu Google) */
+@font-face { font-family: 'Plus Jakarta Sans'; font-style: normal; font-weight: 400; font-display: swap; src: url('fonts/plus-jakarta-sans-latin-400-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Plus Jakarta Sans'; font-style: normal; font-weight: 500; font-display: swap; src: url('fonts/plus-jakarta-sans-latin-500-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Plus Jakarta Sans'; font-style: normal; font-weight: 600; font-display: swap; src: url('fonts/plus-jakarta-sans-latin-600-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Plus Jakarta Sans'; font-style: normal; font-weight: 700; font-display: swap; src: url('fonts/plus-jakarta-sans-latin-700-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Plus Jakarta Sans'; font-style: normal; font-weight: 800; font-display: swap; src: url('fonts/plus-jakarta-sans-latin-800-normal.woff2') format('woff2'); }
 
 :root {
   --ink: #14171C;
@@ -55,6 +60,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
 
 /* Hero */
 .hero { position: relative; margin: 8px 0 0; border-radius: 28px; overflow: hidden; min-height: 640px; display: grid; background: linear-gradient(120deg, #1B2330 0%, #26364C 60%, #1E7FD0 140%); }
+.hero-art { position: absolute; right: 0; bottom: 0; width: 70%; height: 100%; }
 .hero > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 60% 50%; }
 .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(20,23,28,.9) 0%, rgba(20,23,28,.7) 42%, rgba(20,23,28,.05) 78%); }
 .hero-content { position: relative; z-index: 1; align-self: end; padding: 64px; max-width: 660px; color: var(--white); }
@@ -155,7 +161,12 @@ details p { color: var(--ink-soft); padding: 0 0 24px; max-width: 40em; }
 .contact-list a:hover span { text-decoration: underline; }
 .contact-list svg { width: 22px; height: 22px; flex: none; }
 .storefront { position: relative; border-radius: 22px; overflow: hidden; aspect-ratio: 10 / 7; background: linear-gradient(135deg, #145FA0, #0E4A80); }
-.storefront img { width: 100%; height: 100%; object-fit: cover; }
+.storefront img { position: relative; width: 100%; height: 100%; object-fit: cover; }
+.storefront-fallback { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; gap: 8px; color: var(--white); }
+.storefront-fallback > span { font-size: 44px; font-weight: 800; letter-spacing: -0.03em; }
+.storefront-fallback .o { color: var(--orange); }
+.storefront-fallback .in { color: #9FCBF2; }
+.storefront-fallback small { font-size: 15px; font-weight: 600; color: #CFE6FA; }
 .storefront figcaption { position: absolute; left: 16px; bottom: 16px; background: var(--white); color: var(--ink); font-size: 14px; font-weight: 700; padding: 8px 14px; border-radius: 999px; }
 
 /* Footer */
@@ -179,6 +190,7 @@ details p { color: var(--ink-soft); padding: 0 0 24px; max-width: 40em; }
   .hero { min-height: 680px; border-radius: 20px; }
   .hero::after { background: linear-gradient(0deg, rgba(20,23,28,.94) 0%, rgba(20,23,28,.72) 58%, rgba(20,23,28,.1) 100%); }
   .hero-content { padding: 28px; }
+  .hero-art { width: 100%; height: 55%; top: 0; bottom: auto; }
   .hero h1 { font-size: 40px; }
   .hero p { font-size: 17px; }
   .audience, .calm-grid, .costs-grid, .faq-grid, .contact-grid { grid-template-columns: 1fr; gap: 40px; }
@@ -205,3 +217,12 @@ details p { color: var(--ink-soft); padding: 0 0 24px; max-width: 40em; }
   * { transition: none !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* Rechtstexte */
+.legal { max-width: 760px; }
+.legal h1 { font-size: 44px; line-height: 1.1; letter-spacing: -0.03em; margin-bottom: 32px; }
+.legal h2 { font-size: 20px; letter-spacing: -0.01em; margin: 36px 0 10px; }
+.legal p { color: var(--ink-soft); margin-bottom: 12px; }
+.legal a { color: var(--blue-deep); }
+.legal h1, .legal p { overflow-wrap: break-word; hyphens: auto; }
+@media (max-width: 960px) { .legal h1 { font-size: 32px; } }

@@ -1,0 +1,6 @@
+Hier gehören zwei Fotos hinein (optional, die Seite funktioniert auch ohne):
+
+  hero-fahrstunde.jpg   großes Titelbild, Querformat 16:9, ca. 2000 px breit
+  ladenfront.jpg        Foto der Ladenfront, Querformat, ca. 1600 px breit
+
+Fehlt ein Foto, zeigt die Seite automatisch eine passende Grafik.
