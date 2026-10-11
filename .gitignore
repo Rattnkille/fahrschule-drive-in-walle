@@ -1,0 +1,14 @@
+# Zugangsdaten niemals committen
+keys.md
+*.key
+.env
+.env.*
+.vercel
+node_modules/
+.next/
+
+# Generator-Ausgabe (wird aus werkstatt/kunden/*.json erzeugt)
+werkstatt/ausgabe/
+
+# Akquise-Ergebnisse (enthalten Firmendaten, nicht ins Git)
+akquise/*/

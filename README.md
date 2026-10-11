@@ -1,31 +1,31 @@
-# Fahrschule Drive In Walle
+# Fahrschule Drive In Walle · Website
 
-Dieses Projekt enthält eine vollständige, fünfseitige Website für die Fahrschule Drive In Walle:
+Statischer Onepager (HTML, CSS, etwas JavaScript). Keine Abhängigkeiten, kein Build-Schritt, keine Cookies, keine externen Dienste.
 
-- `index.html` – Startseite
-- `kurse.html` – Kurse & Ausbildungsangebote
-- `team.html` – Team & Fahrlehrer
-- `preise.html` – Preisübersicht
-- `kontakt.html` – Kontakt und Standort
+## Abgabe
+- **Fertiges Paket:** `abgabe/drive-in-walle-website.zip`
+- **Upload-Anleitung:** `abgabe/ANLEITUNG-HOSTINGER.md`
 
-## Was enthalten ist
-- modernes, professionelles Layout
-- klare Markenführung und Farbgestaltung
-- passende Bildwelt per Bild-URLs
-- direkte Kontakt- und Angebotszitate
-- Google-Maps-Link zum Standort
+## Vor dem Livegang
+1. `impressum.html` und `datenschutz.html`: alle `[ECKIGEN KLAMMERN]` ersetzen
+2. Optional Fotos in `bilder/` legen (siehe `bilder/LIESMICH.txt`)
+3. ZIP neu packen, falls Dateien geändert wurden
 
-## Brand Guide
-Siehe `brand-guide.md` für:
-- Zielkunde
-- Markenstimme
-- Farbpalette
-- Typografie
-- Website-Strategie
+## Werkstatt für weitere Kunden
+Aus derselben Vorlage lassen sich weitere Websites bauen:
+```
+node werkstatt/bauen.mjs werkstatt/kunden/drive-in-walle.json
+```
+Anleitung: `.claude/skills/website-bauen/SKILL.md`
 
-## Nächste Schritte
-1. Öffne `index.html` in VS Code oder einem Browser.
-2. Prüfe Texte und den Google-Maps-Link.
-3. Wenn du die Website als Paket verschicken willst, kannst du den Ordner komprimieren oder auf einen Webspace hochladen.
-
-> Die fünf Seiten sind bereits verlinkt. Du kannst die Website dem Kunden direkt als fertiges Angebot präsentieren.
+## Dateien
+| Datei | Zweck |
+|---|---|
+| `index.html` | Startseite |
+| `impressum.html`, `datenschutz.html` | Rechtstexte (Vorlagen) |
+| `404.html` | Fehlerseite |
+| `styles.css`, `script.js` | Design und Scroll-Effekte |
+| `fonts/` | Plus Jakarta Sans, lokal eingebunden (OFL-Lizenz) |
+| `.htaccess` | HTTPS-Weiterleitung, Caching, Sicherheits-Header |
+| `BRIEF.md`, `DESIGN.md` | Inhalte, Entscheidungen, Design-System |
+| `docs/AKQUISE-PLAN.md` | Geparkter Plan für weitere Kunden |

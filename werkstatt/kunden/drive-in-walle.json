@@ -1,0 +1,108 @@
+{
+  "name": "Fahrschule Drive In Walle",
+  "logo": [{ "text": "Drive", "farbe": "akzent" }, { "text": "In", "farbe": "primaer" }, { "text": "Walle" }],
+  "ort": "Bremen-Walle",
+  "stadt": "Bremen",
+  "domain": "https://www.driveinwalle.de",
+  "schema_typ": "DrivingSchool",
+  "farben": { "primaer": "#1E7FD0", "primaer_tief": "#145FA0", "akzent": "#EE7A2C" },
+  "seo": {
+    "titel": "Fahrschule Drive In Walle · Führerschein in Bremen-Walle",
+    "beschreibung": "Fahrschule Drive In Walle in Bremen-Walle: geduldige Fahrlehrer, flexible Fahrstunden, Theorie online oder vor Ort. 20 % Rabatt für Schüler und Studenten."
+  },
+  "navigation": { "leistungen": "Ausbildung" },
+  "hero": {
+    "kicker": "Fahrschule in Bremen-Walle",
+    "titel": "Nervös vor der ersten Fahrstunde? Gut, dass du hier bist.",
+    "text": "Bei uns lernst du in deinem Tempo, mit Fahrlehrern, die erklären statt meckern.",
+    "punkte": ["Kostenloses Beratungsgespräch vor Ort", "Theorie online oder bei uns in Walle", "20 % Rabatt für Schüler und Studenten"],
+    "button": "Jetzt anrufen",
+    "button2": "So läuft die Ausbildung",
+    "bild_alt": "Fahrschülerin am Steuer, daneben ihr Fahrlehrer, während einer ruhigen Fahrstunde"
+  },
+  "zielgruppen": {
+    "titel": "Jeder fängt mal an. Wir holen dich da ab, wo du stehst.",
+    "text": "Ob du direkt nach der Schule loslegen willst oder neben dem Job nur abends Zeit hast: Wir planen deine Ausbildung um dein Leben herum, nicht umgekehrt.",
+    "liste": [
+      { "icon": "schule", "titel": "Schüler und Studenten", "text": "Schnell und günstig zum Führerschein, mit 20 % Rabatt bei Anmeldung." },
+      { "icon": "job", "titel": "Berufstätige", "text": "Theorie online, wann es passt. Fahrstunden, die sich nach deinem Kalender richten." },
+      { "icon": "herz", "titel": "Alle, die nervös sind", "text": "Ruhige Fahrlehrer, klare Ansagen, kein Druck. Wir fahren in deinem Tempo." },
+      { "icon": "schild", "titel": "Eltern", "text": "Eine Fahrschule um die Ecke, der ihr euer Kind guten Gewissens anvertrauen könnt." }
+    ]
+  },
+  "leistungen": {
+    "titel": "Alles, was du bis zur Prüfung brauchst",
+    "text": "Von der ersten Theoriestunde bis zur Prüfungsfahrt bekommst du alles aus einer Hand, direkt in Bremen-Walle.",
+    "liste": [
+      { "titel": "Führerschein mit Ruhe und System", "text": "Fahrstunden in Stadt, Überland und auf der Autobahn. Mit klaren Lernschritten und ehrlicher Rückmeldung nach jeder Stunde." },
+      { "titel": "Intensivkurs", "text": "Du willst schnell fertig werden? Dann planen wir feste Fahrtermine und du lernst die Theorie im eigenen Tempo." },
+      { "titel": "Theorie online oder vor Ort", "text": "Lernen auf dem Handy oder im Unterricht bei uns in Walle. Du entscheidest, was besser zu dir passt." },
+      { "titel": "Auffrischen und sicherer werden", "text": "Lange nicht gefahren? Einzelstunden zum Wiedereinstieg, mit genau den Themen, die dich unsicher machen." }
+    ]
+  },
+  "ablauf": {
+    "titel": "In vier Etappen zum Führerschein",
+    "schritte": [
+      { "titel": "Kennenlernen", "text": "Kostenloses Beratungsgespräch vor Ort oder am Telefon. Wir klären Ziel, Zeitplan und Kosten." },
+      { "titel": "Anmelden und Theorie", "text": "Du meldest dich an und startest mit der Theorie, online oder bei uns im Unterricht." },
+      { "titel": "Fahrstunden", "text": "Schritt für Schritt vom Parkplatz bis auf die Autobahn, immer in deinem Tempo." },
+      { "titel": "Prüfung", "text": "Wir bereiten dich gezielt vor und sagen dir ehrlich, wann du bereit bist." }
+    ]
+  },
+  "versprechen": {
+    "titel": "Ruhig ans Steuer. Sicher zur Prüfung.",
+    "text": "Angst am Steuer ist normal. Deshalb setzen wir auf Geduld statt Druck.",
+    "punkte": [
+      { "titel": "Erklären statt meckern", "text": "Jede Stunde endet mit einer klaren Rückmeldung." },
+      { "titel": "Ehrlich bei den Kosten", "text": "Du bekommst vorab einen persönlichen Kostenplan." },
+      { "titel": "Flexibel geplant", "text": "Fahrstunden passend zu Schule, Uni oder Job." }
+    ]
+  },
+  "angebot": {
+    "kicker": "Für Schüler und Studenten",
+    "gross": "20 %",
+    "text": "Rabatt auf deine Ausbildung",
+    "hinweis": "Einfach bei der Anmeldung den Schüler- oder Studentenausweis zeigen."
+  },
+  "kosten": {
+    "titel": "Keine Überraschungen am Ende",
+    "text": "Was ein Führerschein kostet, hängt vor allem davon ab, wie viele Übungsstunden du brauchst. Im Beratungsgespräch rechnen wir alles gemeinsam durch.",
+    "button": "Kostenplan anfragen",
+    "posten": [
+      { "titel": "Grundbetrag", "text": "Anmeldung und theoretischer Unterricht", "einheit": "einmalig" },
+      { "titel": "Übungsstunden", "text": "So viele, wie du wirklich brauchst", "einheit": "je 45 Min." },
+      { "titel": "Sonderfahrten", "text": "Überland, Autobahn, Nachtfahrt (gesetzlich vorgeschrieben)", "einheit": "je 45 Min." },
+      { "titel": "Vorstellung zur Prüfung", "text": "Theorie- und Praxisprüfung", "einheit": "je Prüfung" },
+      { "titel": "Lernmaterial", "text": "Theorie-App bzw. Lehrmaterial", "einheit": "einmalig" }
+    ],
+    "hinweis": "Dazu kommen Gebühren für TÜV/DEKRA und das Bürgeramt, die nicht an uns gehen. Wir erklären dir alles transparent."
+  },
+  "fragen": [
+    { "frage": "Wie lange dauert es bis zum Führerschein?", "antwort": "Das hängt davon ab, wie oft du fahren kannst und wie schnell Prüfungstermine frei sind. Mit dem Intensivkurs geht es deutlich schneller. Im Beratungsgespräch machen wir dir einen realistischen Zeitplan." },
+    { "frage": "Ich bin sehr nervös. Ist das ein Problem?", "antwort": "Überhaupt nicht. Viele unserer Fahrschüler sind am Anfang nervös. Wir starten ruhig, zum Beispiel auf einem Übungsplatz oder in ruhigen Straßen, und steigern uns erst, wenn du dich sicher fühlst." },
+    { "frage": "Kann ich die Theorie online lernen?", "antwort": "Ja. Du kannst die Theorie digital lernen, flexibel von zu Hause aus. Wenn du lieber im Unterricht lernst, geht das auch bei uns in Walle." },
+    { "frage": "Wie bekomme ich den Rabatt für Schüler und Studenten?", "antwort": "Zeig bei der Anmeldung einfach deinen gültigen Schüler- oder Studentenausweis. Den Rest erledigen wir." },
+    { "frage": "Wie melde ich mich an?", "antwort": "Ruf uns an unter 0174 / 36 36 150, schreib uns per WhatsApp oder komm direkt bei uns in Walle vorbei." }
+  ],
+  "kontakt": {
+    "titel": "Bereit für die erste Fahrstunde?",
+    "text": "Ruf an, schreib uns oder komm einfach vorbei. Wir melden uns schnell und planen gemeinsam deinen Start.",
+    "telefon": "0174 / 36 36 150",
+    "telefon_link": "+491743636150",
+    "whatsapp_link": "491743636150",
+    "email": "info@driveinwalle.de",
+    "maps_link": "https://maps.app.goo.gl/22WR557CoSiLuuKV7",
+    "bewertungen_link": "https://maps.app.goo.gl/22WR557CoSiLuuKV7",
+    "bild_alt": "Ladenfront der Fahrschule Drive-In Walle mit großem Schaufenster"
+  },
+  "recht": {
+    "inhaber": "[VOR- UND NACHNAME]",
+    "strasse": "[STRASSE HAUSNUMMER]",
+    "plz_ort": "[PLZ] Bremen",
+    "ust_id": "",
+    "berufsangaben": "Berufsbezeichnung: Fahrlehrer (verliehen in der Bundesrepublik Deutschland)<br>Fahrschulerlaubnis erteilt durch: [ZUSTÄNDIGE ERLAUBNISBEHÖRDE]<br>Es gelten das Fahrlehrergesetz (FahrlG) und die Fahrschüler-Ausbildungsordnung (FahrschAusbO), einsehbar unter <a href=\"https://www.gesetze-im-internet.de/fahrlg_2018/\" target=\"_blank\" rel=\"noopener\">gesetze-im-internet.de</a>.",
+    "aufsichtsbehoerde": "Landesbeauftragten für Datenschutz und Informationsfreiheit der Freien Hansestadt Bremen",
+    "stand": "[MONAT JAHR]",
+    "bildnachweis": "Titelbild: KI-generiertes Stimmungsbild. Foto der Ladenfront: Fahrschule Drive In Walle."
+  }
+}
