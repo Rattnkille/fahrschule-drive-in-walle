@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hero A · Drive In Walle</title>
+<link rel="stylesheet" href="tokens.css">
+<style>
+  .hero { display: grid; grid-template-columns: 1.05fr 1fr; gap: 64px; align-items: center; padding: 24px 0 96px; }
+  .hero h1 { font-size: 66px; line-height: 1.02; letter-spacing: -0.035em; font-weight: 800; margin: 20px 0 24px; }
+  .hero h1 em { font-style: normal; color: var(--blue); }
+  .hero .lead { font-size: 20px; line-height: 1.55; color: var(--ink-soft); max-width: 30em; }
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
+  .label { color: var(--blue-deep); }
+  .facts { display: flex; flex-wrap: wrap; gap: 28px; margin-top: 44px; padding-top: 28px; border-top: 1px solid var(--line); font-size: 15px; color: var(--ink-soft); }
+  .facts strong { display: block; color: var(--ink); font-size: 16px; }
+  .photo { position: relative; }
+  .photo img { width: 100%; aspect-ratio: 5 / 6; max-height: 680px; object-fit: cover; object-position: 38% 50%; border-radius: 22px; }
+  .photo .badge { position: absolute; left: -28px; bottom: 36px; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 20px; max-width: 250px; }
+  .photo .badge b { display: block; font-size: 26px; letter-spacing: -0.02em; }
+  .photo .badge span { font-size: 14px; color: var(--ink-soft); }
+  .photo .badge i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--orange); margin-right: 8px; }
+  @media (max-width: 960px) {
+    .hero { grid-template-columns: 1fr; gap: 40px; padding: 16px 0 72px; }
+    .hero h1 { font-size: 44px; }
+    .hero .lead { font-size: 18px; }
+    .photo img { aspect-ratio: 4 / 3; }
+    .photo .badge { left: 16px; bottom: 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="nav" aria-label="Hauptnavigation">
+    <a class="logo" href="#"><span class="o">Drive</span> <span class="in">In</span> Walle</a>
+    <ul><li><a href="#">Ausbildung</a></li><li><a href="#">Preise</a></li><li><a href="#">Team</a></li><li><a href="#">Kontakt</a></li></ul>
+    <a class="nav-tel" href="tel:+491743636150">0174 / 36 36 150</a>
+  </nav>
+
+  <header class="hero">
+    <div>
+      <p class="label">Fahrschule in Bremen-Walle</p>
+      <h1>Dein Führerschein. <em>Ohne Stress.</em></h1>
+      <p class="lead">Geduldige Fahrlehrer, flexible Termine und Theorie online. Wir bringen dich sicher durch die Prüfung, auch wenn du nervös bist.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="tel:+491743636150">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+          Kostenlos beraten lassen
+        </a>
+        <a class="btn btn-ghost" href="#">Preise ansehen</a>
+      </div>
+      <div class="facts">
+        <div><strong>Theorie online</strong>oder vor Ort in Walle</div>
+        <div><strong>Flexible Fahrstunden</strong>passend zu Schule und Job</div>
+      </div>
+    </div>
+    <div class="photo">
+      <img src="assets/schaufenster.jpg" alt="Schaufenster der Fahrschule Drive In Walle mit Logo" width="1600" height="1222">
+      <div class="badge"><b>20 % Rabatt</b><span><i></i>für Schüler und Studenten</span></div>
+    </div>
+  </header>
+</div>
+<span class="draft-tag">Entwurf A · Split</span>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hero B · Drive In Walle</title>
+<link rel="stylesheet" href="tokens.css">
+<style>
+  body { background: var(--ink); color: var(--white); }
+  .nav ul a { color: #B7BDC7; }
+  .nav ul a:hover { color: var(--white); }
+  .hero { position: relative; padding: 72px 0 0; overflow: hidden; }
+  .label { color: var(--orange); }
+  .hero h1 { font-size: 104px; line-height: .95; letter-spacing: -0.045em; font-weight: 800; margin: 24px 0 0; max-width: 11ch; }
+  .hero h1 span { color: var(--blue); }
+  .row { display: grid; grid-template-columns: 1fr auto; gap: 48px; align-items: end; margin-top: 40px; }
+  .lead { font-size: 20px; line-height: 1.55; color: #C9CED6; max-width: 34em; }
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; }
+  .btn-ghost { border-color: var(--white); color: var(--white); }
+  .btn-ghost:hover { background: var(--white); color: var(--ink); }
+  /* Fahrbahn-Motiv */
+  .road { position: relative; margin-top: 88px; height: 220px; }
+  .road svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .road .thumb { position: absolute; right: 24px; bottom: 28px; width: 300px; border-radius: var(--radius); overflow: hidden; border: 1px solid #2A2F37; }
+  .road .thumb img { aspect-ratio: 16 / 10; object-fit: cover; object-position: 40% 45%; }
+  .road .note { position: absolute; left: 24px; bottom: 36px; font-size: 15px; color: #B7BDC7; }
+  .road .note b { color: var(--white); }
+  @media (max-width: 960px) {
+    .hero { padding-top: 32px; }
+    .hero h1 { font-size: 56px; }
+    .row { grid-template-columns: 1fr; gap: 28px; }
+    .lead { font-size: 18px; }
+    .road { height: 260px; margin-top: 56px; }
+    .road .thumb { width: 62%; right: 16px; bottom: 16px; }
+    .road .note { bottom: auto; top: 24px; left: 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="nav" aria-label="Hauptnavigation">
+    <a class="logo" href="#"><span class="o">Drive</span> <span class="in">In</span> Walle</a>
+    <ul><li><a href="#">Ausbildung</a></li><li><a href="#">Preise</a></li><li><a href="#">Team</a></li><li><a href="#">Kontakt</a></li></ul>
+    <a class="nav-tel" href="tel:+491743636150">0174 / 36 36 150</a>
+  </nav>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="label">Fahrschule · Bremen-Walle</p>
+    <h1>Ruhig ans <span>Steuer.</span> Sicher zur Prüfung.</h1>
+    <div class="row">
+      <p class="lead">Geduldige Fahrlehrer, flexible Termine und Theorie online. Auch wenn du nervös bist, wir fahren in deinem Tempo.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="tel:+491743636150">Kostenlos beraten lassen</a>
+        <a class="btn btn-ghost" href="#">Preise</a>
+      </div>
+    </div>
+  </div>
+  <div class="road" aria-hidden="false">
+    <svg viewBox="0 0 1440 220" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 150 C 360 60, 720 210, 1080 110 S 1440 90, 1440 90 L1440 220 L0 220 Z" fill="#20252D"/>
+      <path d="M0 165 C 360 75, 720 225, 1080 125 S 1440 105, 1440 105" fill="none" stroke="#F7F5F0" stroke-width="4" stroke-dasharray="28 22" opacity=".75"/>
+    </svg>
+    <p class="note"><b>20 % Rabatt</b> für Schüler und Studenten</p>
+    <div class="thumb"><img src="assets/schaufenster.jpg" alt="Schaufenster der Fahrschule Drive In Walle" width="1600" height="1222"></div>
+  </div>
+</header>
+<span class="draft-tag">Entwurf B · Dunkel & Fahrbahn</span>
+</body>
+</html>
