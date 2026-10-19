@@ -2,6 +2,9 @@
 
 > Ein Eintrag pro Arbeitslauf. Neueste oben. Max. 5 Zeilen pro Eintrag.
 
+## 19.10.2026
+- Entscheidung Gründer: Routine von täglich auf wöchentlich umgestellt (montags 07:47). Ohne neue Daten nur eine kurze Erinnerung, keine Arbeit.
+
 ## 09.10.2026 (Tagesroutine)
 - Erledigt: AVV-Vorlage. Verkaufspaket ist vollständig.
 - Entscheidung: Ab dem nächsten Lauf nur noch Blocker in einer Zeile, bis der Gründer Daten, E-Mail oder Repo liefert.
