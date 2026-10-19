@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lotti Lückenfüller Demo</title>
+<meta name="description" content="Klickbare Demo von Lotti Lückenfüller, einem Tool von FahrLotti. Alle Daten sind Beispieldaten.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy: #0f2a44;
+  --teal: #1f7a8c;
+  --orange: #f2a541;
+  --bg: #f5f7f8;
+  --surface: #ffffff;
+  --surface-2: #eef3f5;
+  --text: #13202c;
+  --muted: #566472;
+  --line: #dde3e8;
+  --accent: #1f7a8c;
+  --accent-text: #ffffff;
+  --signal: #f2a541;
+  --signal-text: #0f2a44;
+  --banner-bg: #f2a541;
+  --banner-text: #0f2a44;
+  --ok: #1b7a4b;
+  --ok-bg: #e3f4ea;
+  --off-bg: #eceff2;
+  --bubble: #e9eef1;
+  --shadow: 0 10px 30px rgba(15, 42, 68, 0.08);
+  --radius: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b1520;
+    --surface: #132334;
+    --surface-2: #1a2e43;
+    --text: #e8eef3;
+    --muted: #9fb0bf;
+    --line: #26394c;
+    --accent: #3fb0c4;
+    --accent-text: #0b1520;
+    --ok: #5fd39a;
+    --ok-bg: #12382a;
+    --off-bg: #1c2a38;
+    --bubble: #1f3348;
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+.banner {
+  background: var(--banner-bg);
+  color: var(--banner-text);
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 10px 16px;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+.app { width: min(640px, 100%); margin: 0 auto; padding: 16px 16px 120px; }
+.brand { display: flex; align-items: center; gap: 10px; margin: 4px 0 16px; }
+.brand-mark {
+  width: 40px; height: 40px; border-radius: 12px; background: var(--navy);
+  color: var(--orange); display: grid; place-items: center; font-weight: 800; font-size: 1.2rem; flex: none;
+}
+.brand-name { font-weight: 800; font-size: 1.1rem; line-height: 1.2; }
+.brand-sub { color: var(--muted); font-size: 0.85rem; }
+
+.progress { list-style: none; margin: 0 0 20px; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.progress li { text-align: center; font-size: 0.72rem; color: var(--muted); font-weight: 600; }
+.progress .bar { display: block; height: 6px; border-radius: 6px; background: var(--line); margin-bottom: 6px; transition: background .3s; }
+.progress li.done .bar, .progress li.current .bar { background: var(--accent); }
+.progress li.current { color: var(--text); }
+
+.panel { display: none; }
+.panel.active { display: block; animation: fade .35s ease both; }
+@keyframes fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+.role {
+  display: inline-block; font-size: 0.78rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase;
+  color: var(--accent); background: var(--surface-2); padding: 4px 10px; border-radius: 999px; margin-bottom: 8px;
+}
+h1 { font-size: 1.5rem; line-height: 1.25; margin: 0 0 6px; color: var(--text); }
+.lead { color: var(--muted); margin: 0 0 18px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; box-shadow: var(--shadow); }
+.card + .card { margin-top: 16px; }
+
+label { display: block; font-weight: 600; font-size: 0.9rem; margin-bottom: 6px; }
+.field { margin-bottom: 14px; }
+input, select {
+  width: 100%; min-height: 48px; padding: 10px 12px; font: inherit; color: var(--text);
+  background: var(--bg); border: 1.5px solid var(--line); border-radius: 10px;
+}
+input:focus-visible, select:focus-visible, button:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 400px) { .row { grid-template-columns: 1fr; gap: 0; } }
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 12px 20px;
+  border-radius: 12px; border: 2px solid transparent; font: inherit; font-weight: 700; cursor: pointer; text-align: center;
+}
+.btn-primary { background: var(--signal); color: var(--signal-text); width: 100%; }
+.btn-ghost { background: transparent; border-color: var(--line); color: var(--text); }
+.btn-next { background: var(--accent); color: var(--accent-text); }
+.btn[disabled] { opacity: .4; cursor: not-allowed; }
+.btn:not([disabled]):active { transform: scale(.98); }
+
+.students { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.student {
+  display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: start;
+  padding: 12px; border: 1.5px solid var(--line); border-radius: 12px; background: var(--surface);
+  transition: border-color .4s, background .4s, opacity .4s;
+}
+.avatar { width: 44px; height: 44px; border-radius: 50%; background: var(--surface-2); color: var(--accent); display: grid; place-items: center; font-weight: 800; }
+.s-name { font-weight: 700; }
+.s-meta { color: var(--muted); font-size: 0.88rem; }
+.s-why { font-size: 0.88rem; margin-top: 6px; display: none; color: var(--ok); font-weight: 600; }
+.badge { font-size: 0.75rem; font-weight: 700; padding: 4px 10px; border-radius: 999px; background: var(--ok-bg); color: var(--ok); display: none; white-space: nowrap; }
+.students.ranked .student.match { border-color: var(--ok); background: var(--ok-bg); }
+.students.ranked .student.match .badge, .students.ranked .student.match .s-why { display: block; }
+.students.ranked .student:not(.match) { opacity: .6; }
+.s-why-no { display: none; font-size: 0.88rem; margin-top: 6px; color: var(--muted); }
+.students.ranked .student:not(.match) .s-why-no { display: block; }
+.scan { color: var(--muted); font-size: 0.9rem; margin: 0 0 12px; min-height: 1.4em; }
+
+.sendbox { margin-top: 16px; padding: 14px; border-radius: 12px; background: var(--surface-2); display: none; }
+.sendbox.show { display: block; }
+.sendbar { height: 8px; background: var(--line); border-radius: 8px; overflow: hidden; margin-top: 10px; }
+.sendbar span { display: block; height: 100%; width: 0; background: var(--accent); transition: width 1.4s ease; }
+.sendbox.go .sendbar span { width: 100%; }
+.sent { font-weight: 700; color: var(--ok); display: none; }
+.sendbox.done .sent { display: block; }
+.sendbox.done .sending { display: none; }
+
+.phone { width: min(300px, 100%); margin: 0 auto; background: #0b1520; border-radius: 32px; padding: 12px; box-shadow: var(--shadow); }
+.phone-screen { background: var(--surface); border-radius: 22px; padding: 14px 12px 16px; min-height: 380px; }
+.phone-head { text-align: center; font-size: 0.8rem; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 8px; margin-bottom: 14px; }
+.phone-head strong { display: block; color: var(--text); font-size: 0.95rem; }
+.bubble { background: var(--bubble); border-radius: 18px 18px 18px 4px; padding: 12px 14px; font-size: 0.95rem; animation: pop .5s ease both; }
+.bubble-time { font-size: 0.72rem; color: var(--muted); margin: 6px 6px 12px; }
+.bubble .btn { margin-top: 12px; width: 100%; background: var(--accent); color: var(--accent-text); }
+.bubble.reply { background: var(--ok-bg); color: var(--ok); font-weight: 700; border-radius: 18px 18px 4px 18px; margin-left: 24px; display: none; }
+.phone.taken .bubble.reply { display: block; }
+.phone.taken .bubble .btn { display: none; }
+.tap-hint { text-align: center; color: var(--muted); font-size: 0.9rem; margin: 14px 0 0; }
+@keyframes pop { from { opacity: 0; transform: scale(.96); } to { opacity: 1; transform: none; } }
+
+.confirm { display: flex; gap: 14px; align-items: center; background: var(--ok-bg); border: 1.5px solid var(--ok); border-radius: var(--radius); padding: 16px; }
+.check { width: 44px; height: 44px; flex: none; border-radius: 50%; background: var(--ok); color: var(--surface); display: grid; place-items: center; font-size: 1.4rem; font-weight: 800; }
+.confirm strong { display: block; font-size: 1.1rem; color: var(--text); }
+.confirm span { color: var(--muted); font-size: 0.9rem; }
+.others { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 8px; }
+.others li { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 10px 12px; min-height: 44px; border-radius: 10px; background: var(--off-bg); color: var(--muted); }
+.others .tag { font-weight: 700; font-size: 0.8rem; }
+.report h2 { font-size: 1.05rem; margin: 0 0 4px; }
+.report .tagline { color: var(--muted); font-size: 0.8rem; margin-bottom: 12px; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 12px; }
+.stat { background: var(--surface-2); border-radius: 12px; padding: 10px 6px; text-align: center; }
+.stat b { display: block; font-size: 1.4rem; line-height: 1.2; color: var(--accent); }
+.stat span { font-size: 0.74rem; color: var(--muted); }
+.report p { margin: 0; }
+
+.nav {
+  position: fixed; left: 0; right: 0; bottom: 0; background: var(--surface); border-top: 1px solid var(--line);
+  padding: 12px 16px calc(12px + env(safe-area-inset-bottom)); z-index: 10;
+}
+.nav-inner { width: min(640px, 100%); margin: 0 auto; display: flex; gap: 12px; justify-content: space-between; align-items: center; }
+.nav .btn { flex: 1; }
+.step-count { font-size: 0.85rem; color: var(--muted); text-align: center; flex: none; min-width: 52px; }
+.foot { color: var(--muted); font-size: 0.8rem; text-align: center; margin-top: 20px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+</style>
+</head>
+<body>
+<div class="banner" role="note">Demo mit Beispieldaten</div>
+<main class="app">
+  <div class="brand">
+    <div class="brand-mark" aria-hidden="true">L</div>
+    <div>
+      <div class="brand-name">Lotti Lückenfüller</div>
+      <div class="brand-sub">ein Tool von FahrLotti, Bremen</div>
+    </div>
+  </div>
+
+  <ol class="progress" aria-label="Fortschritt">
+    <li data-i="0"><span class="bar"></span>Melden</li>
+    <li data-i="1"><span class="bar"></span>Lotti sucht</li>
+    <li data-i="2"><span class="bar"></span>Schüler</li>
+    <li data-i="3"><span class="bar"></span>Ergebnis</li>
+  </ol>
+
+  <section class="panel active" id="p0" aria-labelledby="h0">
+    <span class="role">Ansicht Fahrlehrer</span>
+    <h1 id="h0">Freie Stunde melden</h1>
+    <p class="lead">Eine Absage ist reingekommen. In 20 Sekunden gemeldet.</p>
+    <form class="card" id="form" autocomplete="off">
+      <div class="row">
+        <div class="field">
+          <label for="f-date">Datum</label>
+          <input type="date" id="f-date" value="2026-10-08" required>
+        </div>
+        <div class="field">
+          <label for="f-time">Uhrzeit</label>
+          <input type="time" id="f-time" value="15:30" required>
+        </div>
+      </div>
+      <div class="field">
+        <label for="f-area">Abholort (Stadtteil)</label>
+        <select id="f-area"></select>
+      </div>
+      <div class="field">
+        <label for="f-class">Klasse</label>
+        <select id="f-class"><option>B</option></select>
+      </div>
+      <button type="submit" class="btn btn-primary">Lotti, finde jemanden</button>
+    </form>
+  </section>
+
+  <section class="panel" id="p1" aria-labelledby="h1">
+    <span class="role">Ansicht Lotti</span>
+    <h1 id="h1">Warteliste</h1>
+    <p class="lead" id="p1-lead">5 Schüler warten auf eine Stunde.</p>
+    <div class="card">
+      <p class="scan" id="scan" aria-live="polite"></p>
+      <ul class="students" id="students"></ul>
+      <div class="sendbox" id="sendbox" aria-live="polite">
+        <div class="sending">Nachricht wird gesendet …</div>
+        <div class="sent">Nachricht an 3 Schüler gesendet</div>
+        <div class="sendbar"><span></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" id="p2" aria-labelledby="h2">
+    <span class="role">Ansicht Schüler-Handy</span>
+    <h1 id="h2">So sieht es beim Schüler aus</h1>
+    <p class="lead">Wer zuerst klickt, bekommt die Stunde.</p>
+    <div class="phone" id="phone">
+      <div class="phone-screen">
+        <div class="phone-head"><strong>Lotti</strong>Nachricht, jetzt</div>
+        <div class="bubble">
+          <span id="sms-text"></span>
+          <button type="button" class="btn" id="take">Ich nehme sie</button>
+        </div>
+        <div class="bubble-time">Beispiel-SMS</div>
+        <div class="bubble reply" id="reply" role="status">Super, die Stunde gehört dir. Bis dann!</div>
+      </div>
+    </div>
+    <p class="tap-hint" id="tap-hint">Tipp auf den Button, um die Stunde zu nehmen.</p>
+  </section>
+
+  <section class="panel" id="p3" aria-labelledby="h3">
+    <span class="role">Ansicht Fahrlehrer</span>
+    <h1 id="h3">Stunde ist besetzt</h1>
+    <div class="confirm" role="status">
+      <div class="check" aria-hidden="true">&#10003;</div>
+      <div><strong id="confirm-text"></strong><span>Name und Handynummer sind im Fahrerkalender hinterlegt.</span></div>
+    </div>
+    <ul class="others" id="others"></ul>
+    <div class="card report" style="margin-top:16px">
+      <h2>Wochenbericht</h2>
+      <div class="tagline">Beispiel</div>
+      <div class="stats">
+        <div class="stat"><b>4</b><span>Absagen gemeldet</span></div>
+        <div class="stat"><b>3</b><span>nachbesetzt</span></div>
+        <div class="stat"><b>180 €</b><span>gerettet</span></div>
+      </div>
+      <p>Diese Woche: 4 Absagen gemeldet, 3 nachbesetzt, ca. 180 € gerettet (bei 60 € pro Stunde).</p>
+    </div>
+    <div style="margin-top:16px"><button type="button" class="btn btn-primary" id="restart">Demo neu starten</button></div>
+  </section>
+
+  <p class="foot">Alle Namen und Zahlen sind erfunden. Keine echten Personen, keine echten Telefonnummern.</p>
+</main>
+
+<nav class="nav" aria-label="Demo Navigation">
+  <div class="nav-inner">
+    <button type="button" class="btn btn-ghost" id="back">Zurück</button>
+    <div class="step-count" id="count" aria-live="polite">1 von 4</div>
+    <button type="button" class="btn btn-next" id="next">Weiter</button>
+  </div>
+</nav>
+
+<script>
+(function () {
+  'use strict';
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var AREAS = {
+    'Neustadt': ['Obervieland', 'Huchting', 'Woltmershausen', 'Mitte'],
+    'Obervieland': ['Neustadt', 'Huchting', 'Woltmershausen'],
+    'Huchting': ['Neustadt', 'Obervieland'],
+    'Woltmershausen': ['Neustadt', 'Gröpelingen', 'Walle'],
+    'Mitte': ['Neustadt', 'Östliche Vorstadt', 'Findorff', 'Walle'],
+    'Östliche Vorstadt': ['Mitte', 'Schwachhausen', 'Hemelingen'],
+    'Findorff': ['Mitte', 'Walle', 'Schwachhausen'],
+    'Schwachhausen': ['Östliche Vorstadt', 'Findorff', 'Horn-Lehe'],
+    'Horn-Lehe': ['Schwachhausen'],
+    'Hemelingen': ['Östliche Vorstadt'],
+    'Walle': ['Findorff', 'Mitte', 'Gröpelingen', 'Woltmershausen'],
+    'Gröpelingen': ['Walle', 'Woltmershausen', 'Vegesack'],
+    'Vegesack': ['Gröpelingen']
+  };
+  var STUDENTS = [
+    { name: 'Mia', area: 'Neustadt', hours: 8, from: 14, to: 19 },
+    { name: 'Ben', area: 'Obervieland', hours: 14, from: 15, to: 20 },
+    { name: 'Lena', area: 'Mitte', hours: 5, from: 12, to: 18 },
+    { name: 'Sofia', area: 'Findorff', hours: 11, from: 17, to: 20 },
+    { name: 'Noah', area: 'Vegesack', hours: 2, from: 8, to: 12 }
+  ];
+  var $ = function (id) { return document.getElementById(id); };
+  var panels = [$('p0'), $('p1'), $('p2'), $('p3')];
+  var steps = document.querySelectorAll('.progress li');
+  var cur = 0, sent = false, taken = false, ranked = [], timers = [];
+  var slot = { day: 'Donnerstag', time: '15:30', area: 'Neustadt', hour: 15.5 };
+
+  var sel = $('f-area');
+  Object.keys(AREAS).forEach(function (a) {
+    var o = document.createElement('option'); o.textContent = a; if (a === 'Neustadt') o.selected = true; sel.appendChild(o);
+  });
+
+  function later(fn, ms) { timers.push(setTimeout(fn, reduce ? 0 : ms)); }
+  function clearTimers() { timers.forEach(clearTimeout); timers = []; }
+
+  function readSlot() {
+    var d = $('f-date').value, t = $('f-time').value || '15:30';
+    var day = 'Donnerstag';
+    if (d) {
+      var dt = new Date(d + 'T12:00:00');
+      if (!isNaN(dt)) day = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'][dt.getDay()];
+    }
+    var p = t.split(':');
+    slot = { day: day, time: t, area: sel.value, hour: parseInt(p[0], 10) + parseInt(p[1] || '0', 10) / 60 };
+  }
+
+  function score(s) {
+    var place = s.area === slot.area ? 2 : (AREAS[slot.area].indexOf(s.area) > -1 ? 1 : 0);
+    var fits = slot.hour >= s.from && slot.hour < s.to;
+    return { s: s, place: place, fits: fits, v: place * 10 + (fits ? 5 : 0) + Math.min(s.hours, 20) / 100 };
+  }
+
+  function buildList() {
+    ranked = STUDENTS.map(score).sort(function (a, b) { return b.v - a.v; });
+    var ul = $('students');
+    ul.className = 'students';
+    ul.innerHTML = '';
+    var top = ranked.slice(0, 3);
+    ranked.forEach(function (r) {
+      var li = document.createElement('li');
+      li.className = 'student' + (top.indexOf(r) > -1 ? ' match' : '');
+      var why;
+      if (r.place === 2) why = 'Gleicher Stadtteil';
+      else if (r.place === 1) why = 'Benachbarter Stadtteil';
+      else why = 'Anderer Stadtteil, weiter weg';
+      why += r.fits ? ', Zeit passt' : ', Zeit passt eher nicht';
+      li.innerHTML =
+        '<div class="avatar" aria-hidden="true"></div>' +
+        '<div><div class="s-name"></div><div class="s-meta"></div>' +
+        '<div class="s-why"></div><div class="s-why-no"></div></div>' +
+        '<span class="badge">Passt</span>';
+      li.querySelector('.avatar').textContent = r.s.name.charAt(0);
+      li.querySelector('.s-name').textContent = r.s.name;
+      li.querySelector('.s-meta').textContent = r.s.area + ', ' + r.s.hours + ' Stunden gefahren';
+      li.querySelector('.s-why').textContent = why;
+      li.querySelector('.s-why-no').textContent = why + ', nicht ausgewählt';
+      ul.appendChild(li);
+    });
+  }
+
+  function runLotti() {
+    sent = false; clearTimers();
+    buildList();
+    var box = $('sendbox'); box.className = 'sendbox';
+    $('scan').textContent = 'Lotti vergleicht Stadtteil und Zeit …';
+    $('p1-lead').textContent = '5 Schüler warten auf eine Stunde. Frei ist ' + slot.day + ' ' + slot.time + ' (' + slot.area + ').';
+    later(function () {
+      $('scan').textContent = 'Die 3 passendsten sind markiert.';
+      $('students').classList.add('ranked');
+    }, 1100);
+    later(function () {
+      box.classList.add('show');
+      later(function () { box.classList.add('go'); }, 50);
+      later(function () { box.classList.add('done'); sent = true; update(); }, 1500);
+    }, 2200);
+    update();
+  }
+
+  function setupPhone() {
+    taken = false;
+    var first = ranked[0].s;
+    $('phone').classList.remove('taken');
+    $('tap-hint').style.display = '';
+    $('sms-text').textContent = 'Moin ' + first.name + ', ' + slot.day + ' ' + slot.time + ' ist eine Fahrstunde frei (Abholung ' + slot.area + '). Willst du sie?';
+  }
+
+  function setupResult() {
+    var first = ranked[0].s;
+    $('confirm-text').textContent = first.name + ' fährt ' + slot.day + ' ' + slot.time;
+    var ul = $('others'); ul.innerHTML = '';
+    ranked.slice(1, 3).forEach(function (r) {
+      var li = document.createElement('li');
+      var a = document.createElement('span'); a.textContent = r.s.name;
+      var b = document.createElement('span'); b.className = 'tag'; b.textContent = 'schon vergeben';
+      li.appendChild(a); li.appendChild(b); ul.appendChild(li);
+    });
+  }
+
+  function update() {
+    panels.forEach(function (p, i) { p.classList.toggle('active', i === cur); });
+    steps.forEach(function (s, i) {
+      s.classList.toggle('current', i === cur);
+      s.classList.toggle('done', i < cur);
+      if (i === cur) s.setAttribute('aria-current', 'step'); else s.removeAttribute('aria-current');
+    });
+    $('count').textContent = (cur + 1) + ' von 4';
+    $('back').disabled = cur === 0;
+    var n = $('next');
+    n.style.visibility = cur === 3 ? 'hidden' : 'visible';
+    n.disabled = (cur === 1 && !sent) || (cur === 2 && !taken);
+  }
+
+  function go(i) {
+    if (i < 0 || i > 3) return;
+    cur = i;
+    if (i === 1) runLotti();
+    if (i === 2) setupPhone();
+    if (i === 3) setupResult();
+    update();
+    window.scrollTo(0, 0);
+  }
+
+  $('form').addEventListener('submit', function (e) { e.preventDefault(); readSlot(); go(1); });
+  $('next').addEventListener('click', function () {
+    if (cur === 0) { if ($('form').reportValidity()) { readSlot(); go(1); } } else go(cur + 1);
+  });
+  $('back').addEventListener('click', function () { go(cur - 1); });
+  $('take').addEventListener('click', function () {
+    taken = true;
+    $('phone').classList.add('taken');
+    $('tap-hint').style.display = 'none';
+    update();
+    later(function () { go(3); }, 1400);
+  });
+  $('restart').addEventListener('click', function () {
+    clearTimers(); sent = false; taken = false;
+    $('f-date').value = '2026-10-08'; $('f-time').value = '15:30'; sel.value = 'Neustadt';
+    go(0);
+  });
+
+  readSlot();
+  update();
+})();
+</script>
+</body>
+</html>
